@@ -1,0 +1,173 @@
+.outer-div{
+    background-image: radial-gradient(circle at bottom, rgba(58,61,70,0.996078431372549) 0%, rgba(58,61,70,0.9960808321173228)
+     0%, rgba(47,48,55,0.9975361213419526) 40%, rgba(17,17,17,0.9999999999999999) 100%);
+     height: 100%;
+}
+
+.homepage{
+    background-image: url("/assets/backround2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+   
+}
+@media (min-width: 990px) {
+    .homepage {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+  }
+  
+
+/* navbar css */
+.logo{
+    height: 55px;
+}
+.navbar{
+    padding-top: 48px;
+}
+.navbar-nav{
+    background-color: rgba(39, 39, 39, 0.59);
+}
+.nav-item{
+    font-size: 12px;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); /* Makes it white */
+  }
+  
+
+/* hero section css */
+.herosection{
+    margin-top: 55px;
+}
+
+.welcome-h{
+    font-size: 34px;
+    letter-spacing: 9px;
+}
+.mie-ride{
+    margin-top: 17px;
+    width: 30%;
+}
+
+@media (max-width:787px){
+    .welcome-h{
+        font-size: 24px;
+        letter-spacing: 7px;
+    }
+    .mie-ride{
+        margin-top: 13px;
+        width: 50%;
+    }
+    
+}
+
+.herosection-text{
+    margin-top: 110px;
+}
+.herosection-para{
+    text-align: justify;
+    width: 400px;
+    font-size: 14px;
+}
+
+@media (max-width:525px){
+    .herosection-para{
+        width: 100%;
+    }
+    .herosection-inner{
+        margin: 30px !important;
+    }
+}
+.herosection-inner{
+    margin: 70px;
+}
+.register-btn{
+    width: 190px;
+height: 40px;
+border-radius: 36px;
+box-shadow: -6.947px 7.193px 4px rgba(0, 0, 0, 0.86);
+background-color: #ceff13;
+}
+
+  .mobiles{
+    width: 80%;
+  }
+
+  .s-img{
+    width: 16px;  
+}
+.social-media-inner{
+    list-style: none;
+}
+.home-social-media{
+    bottom: 8%;
+    right: 5%;
+}
+
+  /* rides css */
+
+  .rides{
+    padding-bottom: 80px;
+  }
+
+  .ride{
+    width: 320px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 36px;
+  }
+  .ride-h{
+    text-transform: uppercase;
+color: #cfff13;
+font-weight: 800;
+font-size: 25px;
+  }
+
+  .read-btn{
+    border-radius: 27px;
+    box-shadow:-6.947px 7.193px 4px rgba(0,0,0,0.86);
+    background-color: #ceff13;
+    width: 120px;
+    height: 34px;
+  }
+  .read-btn p{
+    font-size: 13px;
+  }
+
+
+  .robot-img{
+    /* padding: 24px 27px; */
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.729);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .robot-img img{
+    width: 36px;
+    
+  }
+  .miepayimg{
+    border-radius: 27px;
+background-color: #ffd300;
+width: 90px;
+height: 90px;
+
+
+  }
+
+  .miepayimg p{
+       font-size: 30px;
+       text-transform: uppercase;
+       line-height: 30px;
+  }
+
+  .end-image{
+     bottom: 5% !important;
+     right: 5% !important;
+  }
