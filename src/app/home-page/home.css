@@ -118,6 +118,7 @@ background-color: #ceff13;
     border: 1px solid rgb(205, 205, 205);
     border-radius: 36px;
   }
+  
   .ride-h{
     text-transform: uppercase;
 color: #cfff13;
@@ -170,4 +171,16 @@ height: 90px;
   .end-image{
      bottom: 5% !important;
      right: 5% !important;
+  }
+
+  @media (max-width:660px){
+    .end-image{
+        bottom: 1% !important;
+       justify-content: center !important;
+        flex-direction: row !important;
+       
+     }
+     .rides{
+        padding-bottom: 130px;
+     }
   }

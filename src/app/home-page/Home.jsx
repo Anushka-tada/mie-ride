@@ -96,7 +96,7 @@ const Home = () => {
 
 
                             <div className="herosection-image">
-                                <img src="/assets/mobile2.png" alt="" className='mobiles' />
+                                <img src="/assets/mobile3.png" alt="" className='mobiles' />
                             </div>
 
 
