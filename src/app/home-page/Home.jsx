@@ -37,7 +37,7 @@ const Home = () => {
 
                             {/* Navbar Collapse */}
                             <div className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`} id="navbarNav">
-                                <ul className="navbar-nav flex-wrap justify-content-center gap-3 p-3 rounded-5">
+                                <ul className="navbar-nav flex-wrap justify-content-center  p-3 rounded-5">
                                     <li className="nav-item text-uppercase">
                                         <a className="nav-link text-light" href="#">Home</a>
                                     </li>
@@ -116,8 +116,8 @@ const Home = () => {
 
                     </div>
 
-                    <div className="rides  d-flex flex-wrap gap-5 justify-content-center">
-                        <div className="ride p-3 d-flex flex-column gap-3 py-5 justify-content-center">
+                    <div className="rides  d-flex flex-wrap gap-5 justify-content-start">
+                        <div className="ride p-4 d-flex flex-column gap-3 py-5 justify-content-center">
                             <h2 className='ride-h'>Shared ride</h2>
                             <p className='ride-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cumque!</p>
                             <div className="read-btn d-flex align-items-center justify-content-center">
@@ -125,7 +125,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="ride p-3 d-flex flex-column gap-3 py-5 justify-content-center">
+                        <div className="ride p-4 d-flex flex-column gap-3 py-5 justify-content-center">
                             <h2 className='ride-h'>Personal ride</h2>
                             <p className='ride-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cumque!</p>
                             <div className="read-btn d-flex align-items-center justify-content-center">
@@ -133,7 +133,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="ride p-3 d-flex flex-column gap-3 py-5 justify-content-center">
+                        <div className="ride p-4 d-flex flex-column gap-3 py-5 justify-content-center">
                             <h2 className='ride-h'>Driver onboard</h2>
                             <p className='ride-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cumque!</p>
                             <div className="read-btn d-flex align-items-center justify-content-center">
