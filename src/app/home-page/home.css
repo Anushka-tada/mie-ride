@@ -73,6 +73,7 @@
     .welcome-h{
         font-size: 24px;
         letter-spacing: 7px;
+        color: white;
     }
     .mie-ride{
         margin-top: 13px;
@@ -90,6 +91,7 @@
     font-size: 17px;
     font-weight: semibold;
     line-height: 19px;
+    color: white;
 }
 
 @media (max-width:525px){
@@ -163,6 +165,7 @@ background-color: #ceff13;
   .ride p{
     font-size: 20px;
    line-height: 22px;
+   color: white;
   }
 
   
