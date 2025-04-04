@@ -1,0 +1,31 @@
+/* navbar css */
+.logo{
+    height: 55px;
+}
+.navbar{
+    padding-top: 60px !important;
+}
+@media (max-width: 990px) {
+  .navbar{
+    padding-top: 26px !important;
+}
+}
+
+.navbar-nav{
+    background-color: rgba(39, 39, 39, 0.59);
+    gap: 32px;
+}
+@media (max-width: 1397px) {
+    .navbar-nav{
+    gap: 15px;
+}
+   
+}
+.nav-item{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1); /* Makes it white */
+  }
+  
