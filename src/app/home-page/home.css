@@ -69,15 +69,15 @@
     width: 30%;
 }
 
-@media (max-width:787px){
+@media (max-width:687px){
     .welcome-h{
-        font-size: 24px;
+        font-size: 3vh;
         letter-spacing: 7px;
         color: white;
     }
     .mie-ride{
         margin-top: 13px;
-        width: 50%;
+        width: 75%;
     }
     
 }
@@ -96,11 +96,36 @@
 
 @media (max-width:525px){
     .herosection-para{
-        width: 100%;
+        width: 90%;
+        font-size: 10px !important;
     }
     .herosection-inner{
         margin: 30px !important;
     }
+    .mie-ride{
+      width: 85% !important;
+    }
+    .register-btn{
+      width: 37% !important;
+  height: 30px !important;
+  }
+  .register-btn p{
+    font-size: 13px !important;
+  }
+    
+}
+@media (max-width:700px){
+  .herosection-para{
+      width: 100%;
+      text-align: center;
+      font-size: 15px ;
+  }
+  .herosection-text{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
 }
 .herosection-inner{
     margin: 70px;
@@ -127,7 +152,7 @@ background-color: #ceff13;
     list-style: none;
 }
 .home-social-media{
-    bottom: 8%;
+    bottom: 40%;
     right: 5%;
 }
 
@@ -152,13 +177,15 @@ background-color: #ceff13;
   
   @media (max-width:650px){
     .ride{
-      width: 310px !important;
+      width: 80% !important;
       height: auto;
+      gap: 5px !important;
+      padding: 30px 30px !important;
     
     }
     .rides{
       width: 100% !important;
-      justify-content: center !important;
+      justify-content: start !important;
     }
 }
 
@@ -225,13 +252,38 @@ height: 90px;
   @media (max-width:660px){
     .end-image{
         bottom: 1% !important;
+   
        justify-content: center !important;
-        flex-direction: row !important;
+       
+     }
+     .robot-img , .miepayimg{
+      width: 35px !important;
+      height: 35px !important;
+     }
+     .robot-img img{
+      width: 20px;
+     }
+     .miepayimg{
+      border-radius: 6px !important;
+     }
+     .miepayimg p{
+      font-size: 15px;
+      line-height: 15px;
      }
      .rides{
         /* padding-bottom: 170px; */
         padding-bottom: 124px !important;
      }
+     .social-media-inner{
+      list-style: none;
+      flex-direction: row !important;
+      gap: 12px !important;
+  }
+  .home-social-media{
+      bottom: 1%;
+      left: 2%;
+
+  }
   }
 
   @media (max-width:1075px){
@@ -241,7 +293,7 @@ height: 90px;
       padding: 33px;
     }
        .end-image{
-       right: 1% !important;
+       right: 3% !important;
     }
   
 }
@@ -254,7 +306,11 @@ height: 90px;
   .rides{
     padding-bottom: 80px;
     /* padding-left: 40px; */
-    justify-content: center  !important;
+    /* justify-content: center  !important; */
+    padding-left: 7%;
   }
+  .herosection-inner{
+   gap: 0px !important;
+}
   
 }

@@ -73,13 +73,13 @@ const Home = () => {
 
                     {/* herosection */}
 
-                    <div className="herosection text-center position-relative">
+                    <div className="herosection text-center ">
                         <h1 className=' text-uppercase welcome-h '>Welcome To</h1>
                         <div>
                             <img src="/assets/MieRide.png" alt="" className='mie-ride' />
                         </div>
 
-                        <div className='herosection-inner d-flex flex-wrap flex-lg-nowrap flex-row gap-5 justify-content-around'>
+                        <div className='herosection-inner d-flex flex-wrap-reverse flex-lg-nowrap flex-row gap-5 justify-content-around'>
                             <div className="herosection-text ">
                                 <p className='herosection-para'>Welcome to Mie Ride, your friendly neighborhood ride solution without the surge price surprises.
                                     We get it - life's expensive enough without wondering what your ride will cost.
