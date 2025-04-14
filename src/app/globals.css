@@ -28,7 +28,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 25%;
-
   padding: 50px 60px;
   padding-bottom: 0 !important;
 }
@@ -703,4 +702,131 @@ height: 97px;
   gap: 20px;
   left: 36px;
   bottom: 36px;
+}
+
+/* service page css */
+
+.servicepage{
+  padding: 50px 60px;
+  padding-bottom: 0 !important;
+}
+.serviceMain{
+  margin-top: 60px;
+}
+.journey-section{
+  margin-bottom: 67px;
+}
+.journey-section h2{
+  font-size: 33px;
+letter-spacing: -1px;
+color: #cfff13;
+font-weight: bold;
+margin-bottom: 30px !important;
+/* font-family: "Helvetica Now Display"; */
+}
+.journey-section > p {
+  font-size: 17px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+margin-bottom: 33px !important;
+}
+.book-btn {
+  width: 250px;
+height: 54px;
+border-radius: 36px;
+filter: drop-shadow(-6.947px 7.193px 4px rgba(0,0,0,0.86));
+background-color: #ceff13;
+}
+.book-btn p{
+  font-size: 20px;
+color: #000000;
+font-weight: 700;
+font-family: "Montserrat";
+}
+
+.core-services h1{
+  font-size: 33px;
+  letter-spacing: -1px;
+  color: #cfff13;
+  font-weight: bold;
+  margin-bottom: 35px;
+  /* font-family: "Helvetica Now Display"; */
+}
+.service-row{
+  padding-left: 33px;
+  padding-right: 45px;
+}
+.curl1{
+  rotate: 240deg;
+  left: 0;
+  bottom: 50%;
+}
+.curl2{
+  top:30;
+  right: 9%;
+  bottom: 20%;
+}
+.mobile{
+  margin-left: 10%;
+}
+.shared-ride{
+  padding: 20px 24px;
+  background-color: #000;
+  border-radius: 27px;
+  width: 369px !important;
+  right: 10%;
+  top: 10%;
+}
+.personal-ride{
+  padding: 20px 24px;
+  background-color: #000;
+  border-radius: 27px;
+  width: 369px !important;
+  bottom: 4%;
+  left: 12%;
+}
+.elips{
+  width: 25px;
+height: 25px;
+border-radius: 12px;
+background-color: #bbfc00;
+}
+.shared-ride-h{
+  font-size: 33px;
+  letter-spacing: -1px;
+  color: #cfff13;
+  font-weight: bold;
+ 
+}
+.h-box{
+  margin-bottom: 10px;
+}
+.shared-ride p , .personal-ride p{
+  font-size: 13px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+line-height: 17px;
+}
+.cs-card{
+  padding: 21px;
+  margin-bottom: 21px;
+  box-shadow: -1px -1px 3px 0 white, 1px 1px 0 transparent;
+  border-radius: 27px;
+  opacity: 0.7;
+}
+.cs-card h4{
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #cfff13;
+  font-weight: bold;
+  margin-bottom: 13px;
+  /* font-family: "Helvetica Now Display"; */
+}
+.cs-card p{
+font-size: 9px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
 }
