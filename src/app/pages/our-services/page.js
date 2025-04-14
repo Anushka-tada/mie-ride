@@ -105,14 +105,12 @@ function page() {
                     <div className="elips"></div>
                   </div>
                   <p>
-                    Travel in comfort and privacy by reserving an
-                     entire vehicle for yourself and your companions.
-                      Choose between our spacious 4-seater or
-                       6-seater options based on your group size
-                        (maximum 6 passengers). Perfect for business
-                         trips or when you simply prefer your own space.
-                          Download the Mie Ride app now to access exclusive
-                           personal transport discounts.
+                    Travel in comfort and privacy by reserving an entire vehicle
+                    for yourself and your companions. Choose between our
+                    spacious 4-seater or 6-seater options based on your group
+                    size (maximum 6 passengers). Perfect for business trips or
+                    when you simply prefer your own space. Download the Mie Ride
+                    app now to access exclusive personal transport discounts.
                   </p>
                 </div>
               </div>
@@ -172,7 +170,105 @@ function page() {
           </div>
 
           <div className="how-works">
+            <h1>How It Works</h1>
+            <div className="row g-4 work-cards">
+              <div className="col-md-6 px-3">
+                <div className="work-card">
+                  <h3>For Passengers:</h3>
+                  <div className="steps d-flex flex-column">
+                    <div className="step-item">
+                      <div className="step-number">
+                        1. Download & Register -
+                      </div>
+                      <div className="p-span">
+                        Create your account with basic details
+                      </div>
+                    </div>
+                    <div className="step-item">
+                      <div className="step-number">
+                        2. Set Your Destination -
+                      </div>
+                      <div className="p-span">
+                        Enter pickup and drop-off locations
+                      </div>
+                    </div>
+                    <div className="step-item">
+                      <div className="step-number">
+                        3. Choose Your Service -
+                      </div>
+                      <div className="p-span">
+                        Select personal or shared ride
+                      </div>
+                    </div>
+                    <div className="step-item">
+                      <div className="step-number">4. Book & Go -</div>
+                      <div className="p-span">
+                        Confirm your booking and meet your driver
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 px-3">
+              <div className="work-card">
+                  <h3>For Drivers:</h3>
+                  <div className="steps d-flex flex-column">
+                    <div className="step-item">
+                      <div className="step-number">
+                        1. Join Our Network -
+                      </div>
+                      <div className="p-span">
+                        Complete our simple verification process
+                      </div>
+                    </div>
+                    <div className="step-item">
+                      <div className="step-number">
+                        2. Share Your Availability -
+                      </div>
+                      <div className="p-span">
+                        Let us know when and where you can drive
+                      </div>
+                    </div>
+                    <div className="step-item">
+                      <div className="step-number">
+                        3. Accept Ride Requests -
+                      </div>
+                      <div className="p-span">
+                        Choose the rides that fits your schedule
+                      </div>
+                    </div>
+                    <div className="step-item">
+                      <div className="step-number">4. Earn & Grow -</div>
+                      <div className="p-span">
+                        Get paid reliably for every completed journey
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div className="get-started">
+             <div className="row">
+              <div className="col-md-6 col-12">
+              <h1>Download & Get Started</h1>
+              <p className="mb-0" >Take control of your transportation needs with the Mie Ride app. </p>
+              <p className="get-started-p">Available for both iOS and Android devices</p>
+              <p className="mb-0">Scan the QR code to download directly to your device.</p>
+              </div>
+              <div className="col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+              
+                  
+
+                  <div className="d-flex justify-content-start">
+                  <a href="https://apps.apple.com/ca/app/mie-ride-driver/id6642649782"> <img src="/assets/app-store.png" className="app-store-img2"/></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.app.mieridedriver"> <img src="/assets/google-pay.png" className="google-img2"/> </a>             
+                  </div>
+                  <img src="" className="user-app-img"/>
+              </div>
+             
+             </div>
           </div>
         </div>
       </div>
