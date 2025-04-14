@@ -132,6 +132,13 @@
   font-weight: 700;
   font-family: "Montserrat";
 }
+.miePayLogo {
+  z-index: 2;
+}
+.miePayLogo-outer{
+  bottom: 3%;
+  right: 5%;
+}
 .miePayLogo img{
   height: 80px;
   width: 80px;

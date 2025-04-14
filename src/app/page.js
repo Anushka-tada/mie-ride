@@ -120,7 +120,7 @@ function page() {
               </div> */}
             </div>
           </div>
-          <div className="row mt-md-5 mt-0 pt-md-5 pt-0">
+          <div className="row mt-md-5 mt-0 pt-md-5 pt-0 ">
             <div className="col-md-10 col-12 m-md-0 mx-0 mt-3 p-0 row ">
               <div className="col-md-4 col-12 mb-4">
                 <div className="homeCardBox h-100">
