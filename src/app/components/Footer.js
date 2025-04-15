@@ -6,19 +6,19 @@ const Footer = () => {
   const router = useRouter();
 
   const handleUserApp = () => {
-    router.push("https://apps.apple.com/ca/app/mie-ride/id6639612972");
+    window.open("https://apps.apple.com/ca/app/mie-ride/id6639612972");
   };
 
   const handleUserGoogle = () => {
-     router.push("https://play.google.com/store/apps/details?id=com.app.mieride");
+    window.open("https://play.google.com/store/apps/details?id=com.app.mieride");
   };
 
   const handleDriverApp = () => {
-    router.push("https://apps.apple.com/ca/app/mie-ride-driver/id6642649782");
+    window.open("https://apps.apple.com/ca/app/mie-ride-driver/id6642649782");
   };
 
   const handleDriverGoogle = () => {
-    router.push("https://play.google.com/store/apps/details?id=com.app.mieridedriver");
+    window.open("https://play.google.com/store/apps/details?id=com.app.mieridedriver");
   };
   return (
     <>
