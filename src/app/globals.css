@@ -115,8 +115,8 @@ margin-top: 42px;
   font-size: 35px;
   text-transform: uppercase;
   color: #cfff13;
-  font-weight: 400;
-  font-family: "Anton";
+  font-weight: 500;
+  font-family: "Helvetica Neue";
 }
 .homeCardBox p {
   font-size: 20px;
@@ -650,7 +650,7 @@ font-family: "Montserrat";
   font-weight: 600;
   font-family: "HelveticaNowDisplay";
 letter-spacing: 0.5px;
-margin-left: 3px;
+margin-left: 4px;
 }
 
 /* footer section */

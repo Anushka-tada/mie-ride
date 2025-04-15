@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         href="https://fonts.googleapis.com/css?family=Montserrat"
         rel="stylesheet"
       />
-      
+      <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet"></link>
 
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
       <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet"></link>
