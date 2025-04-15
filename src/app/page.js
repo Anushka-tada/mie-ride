@@ -178,15 +178,15 @@ function page() {
               cancellation and using our services.
             </p>
 
-            <div className="row  mb-4  gx-0  faq-row">
-              <div className="col-md-5 col-12 faq  px-4">
+            <div className="row mb-sm-4 mb-2 gx-0 faq-row">
+              <div className="col-md-5 col-12 faq px-sm-4 px-3">
                 <h5>Can I schedule rides in advance with Mie Ride?</h5>
                 <p className="mb-0">
                 Yes, you can pre-book rides to ensure timely pickups, especially for important appointments or airport transfers.​
                 </p>
               </div>
 
-              <div className="col-md-5 col-12 faq  px-4">
+              <div className="col-md-5 col-12 faq  px-sm-4 px-3">
                 <h5>How does Mie Ride ensure my safety during trips?</h5>
                 <p className="mb-0">
                 We offer in-app communication, live ride tracking, and driver details, ensuring transparency and safety throughout your journey.​
@@ -195,14 +195,14 @@ function page() {
             </div>
 
             <div className="row  gx-0  d-flex  faq-row">
-              <div className="col-md-5 col-12 faq  px-4">
+              <div className="col-md-5 col-12 faq px-sm-4 px-3">
                 <h5>What should I do if I leave an item in the vehicle?</h5>
                 <p className="mb-0">
                 Report the lost item through the app; we'll assist in connecting you with the driver to retrieve your belongings.​
                 </p>
               </div>
 
-              <div className="col-md-5 col-12 faq px-4">
+              <div className="col-md-5 col-12 faq px-sm-4 px-3">
                 <h5>Are there any loyalty rewards or referral benefits with Mie Ride?</h5>
                 <p className="mb-0">
                 Yes, refer friends to Mie Ride and earn rewards through our referral program. Details are available within the app.

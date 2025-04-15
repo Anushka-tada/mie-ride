@@ -425,14 +425,14 @@ margin-top: 42px;
   .robot img {
     height: 35px;
   }
-  .socialMediaDiv {
+  /* .socialMediaDiv {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly !important;
     width: 100%;
     padding: 15px 20px 0px 20px;
     margin-top: 20px;
-  }
+  } */
   .blogsMain {
     margin-top: 30px;
   }
@@ -653,6 +653,54 @@ letter-spacing: 0.5px;
 margin-left: 4px;
 }
 
+@media(max-width:700px){
+    .faq-content > p{
+      font-size:  10px;
+    }
+    .faq-content h1{
+      font-size: 30px;
+    }
+    .faq-s{
+        font-size: 19px !important;
+    }
+    .faq{
+      padding: 10px 21px !important;
+    }
+    .faq h5{
+      font-size: 10px;
+    }
+    .faq p {
+      font-size: 8px;
+    }
+    .faq-content > p{
+      margin-bottom: 16px;
+    }
+    .faq-row{
+      gap: 12px;
+      margin-bottom: 12px !important;
+    }
+}
+@media(max-width:426px){
+  .faq-content > p{
+    font-size:  7px;
+  }
+  .faq-content h1{
+    font-size: 25px;
+  }
+  .faq-s{
+      font-size: 14px !important;
+  }
+  .faq{
+    padding: 10px 21px !important;
+  }
+  .faq h5{
+    font-size: 7px;
+  }
+  .faq p {
+    font-size: 6px;
+  }
+ 
+}
 /* footer section */
 
 .footer{
@@ -680,6 +728,7 @@ background-color: #bbfc00;
 background-color: #1f1f1f;
 border: 1.87px solid white ;
 border-bottom: none;
+height: 100%;
 }
 .footer-card p {
   font-size: 16px;
@@ -703,6 +752,7 @@ height: 97px;
   margin-bottom: 20px;
   height: 20px;
   width: 20px;
+
 }
 .socialMediaDiv {
   display: flex;
@@ -717,7 +767,180 @@ height: 97px;
   font-size: 16px;
 }
 
+@media(max-width:1300px){
+  .user-app-img{
+    width: 40%;
+   height: auto;
+  }
+  .store-images{
+    flex-wrap: wrap !important;
+    justify-content: center;
+  }
+  .app-store-img , .google-img{
+    margin-top: 5px !important;
+  }
+  .footer-card{
+    padding: 27px 30px !important;
+  }
+  .footer-card p{
+    font-size: 14px;
+  }
+}
+@media(max-width:991px){
+  .terms-outer{
+     display: flex;
+     justify-content: space-between;
+  }
+  .terms{
+    display: flex;
+    gap: 15px;
+  }
+  .footer-p {
+    font-size: 16px !important;
+    margin-bottom: 12px !important;
+  }
+  .socialMediaDiv {
+    flex-direction: column;
+    align-items: end;
+    gap: 7px;
+    right: 36px;
+    bottom: 36px;
+  }
+}
+@media(max-width:890px){
+    .footer-card{
+      flex-wrap: wrap-reverse;
+    }
+    .footer-card > div{
+      display: flex !important;
+      flex-direction: row !important;
+      gap: 5%;
+    }
+     .user-app-img{
+    width: 30%;
+   height: auto;
+  }
+  .store-images{
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media(max-width:720px){
+  .footer-card{
+    flex-wrap: wrap-reverse;
+  }
+  .footer-card > div{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5%;
+  }
+   .user-app-img{
+  width: 30%;
+ height: auto;
+}
+.store-images{
+  flex-wrap: wrap !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  padding: 39px 26px !important;
+  }
+  .footer-p {
+    font-size: 14px !important;
+    margin-bottom: 12px !important;
+  }
+  .footer-card{
+    padding: 17px 20px !important;
+  }
+  .terms{
+    display: flex;
+    gap: 15px;
+  }
+  .footer-p {
+    font-size: 13px !important;
+    margin-bottom: 0px !important;
+  }
 
+  .homepage {
+    background-image: url("/assets/hero-backround.jpg");
+    background-position: 50% 15%;
+  }
+}
+@media(max-width:618px){
+  .footer{
+    padding: 29px 16px !important;
+  }
+   .footer-card p {
+    font-size: 8px;
+    line-height: 10px;
+   }
+
+   .socialMediaDiv img {
+    margin-bottom: 10px;
+    height: 10px;
+    width: 10px;
+  }
+  .socialMediaDiv{
+    gap: 4px;
+    bottom: 50px;
+  }
+  .app-store-img , .google-img{
+   width: 60%;
+   margin-top: 0px !important;
+  }
+  .terms{
+    display: flex;
+    gap: 10px;
+  }
+  footer h5{
+    font-size: 13px !important;
+  }
+  .footer-p {
+    font-size: 10px !important;
+  }
+}  
+
+@media(max-width:426px){
+  .footer-p {
+    font-size: 6px !important;
+    margin-bottom: 12px !important;
+  }
+  .footer-card{
+    padding: 10px 13px !important;
+    gap: 9px !important;
+    border-radius: 18px;
+    
+  }
+  .footer h5{
+      font-size: 15px;
+      margin-bottom: 13px;
+  }
+  .footer-card p {
+    font-size: 5px;
+    line-height: 6px;
+   }
+   .socialMediaDiv{
+    gap: 10px;
+    bottom: 40px;
+    
+   }
+   .socialMediaDiv img {
+    margin-bottom: 0px !important;
+   }
+   .socialMediaDiv a{
+      height: 10px;
+   }
+   .homepage {
+    background-image: url("/assets/hero-backround.jpg");
+    background-position: 20% 11%;
+  }
+  .store-images a{
+    height: 18px;
+  }
+}  
 
 /* service page css */
 

@@ -172,7 +172,7 @@ function page() {
           <div className="how-works">
             <h1>How It Works</h1>
             <div className="row g-4 work-cards">
-              <div className="col-md-6 px-3">
+              <div className="col-md-6 col-12 px-3">
                 <div className="work-card">
                   <h3>For Passengers:</h3>
                   <div className="steps d-flex flex-column">
@@ -209,7 +209,7 @@ function page() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 px-3">
+              <div className="col-md-6 col-12 px-3">
               <div className="work-card">
                   <h3>For Drivers:</h3>
                   <div className="steps d-flex flex-column">
