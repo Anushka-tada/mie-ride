@@ -23,7 +23,7 @@
      rgba(21, 21, 21, 0.998) 40%,
      rgb(0, 0, 0) 100%
      );
-     padding-bottom: 50px;
+     /* padding-bottom: 50px; */
 }
 .homepage {
   /* background-image: url("/assets/backround2.jpg");
@@ -90,20 +90,20 @@
   font-weight: 500;
   font-family: "Montserrat";
   text-align: justify;
+  margin-bottom: 0;
 }
-.homeContent button {
-  width: 300px;
-  height: 55px;
-  border-radius: 25px;
-  filter: drop-shadow(-6.947px 7.193px 4px rgba(0, 0, 0, 0.86));
-  background-color: #ceff13;
-  font-size: 16px;
-  color: #000000;
-  font-weight: bolder;
-  border: none;
-  font-family: "Montserrat";
+.homeContent h2{
+  font-size: 27px;
+color: #bbfc00;
+font-weight: 700;
+font-family: "Montserrat";
+margin-bottom: 0;
+margin-top: 42px;
 }
-
+.app-store-img3 , .google-img3{
+  margin-top: 28px !important;
+    width: 133px;
+}
 .homeCardBox {
   
   border: 1px solid whitesmoke;
@@ -608,11 +608,11 @@
 .faq-content h1{
 
   color: #cfff13;
-font-weight:900;
+font-weight:600;
 letter-spacing: -1px;
 font-size: 52px;
-font-family: "Akira Expanded";
-
+font-family: "HelveticaNowDisplay";
+letter-spacing: 0.5px;
 
 }
 .faq-content > p{
@@ -625,11 +625,10 @@ font-family: "Montserrat";
 
 }
 .faq {
-  /* opacity: 0.9; */
+  opacity: 0.9;
 border-radius: 34px;
-background-color: #000000;
+background-color: #0000008d;
 padding: 20px 31px !important;
-
 }
 .faq-row{
   gap: 34px;
@@ -647,8 +646,11 @@ font-weight: 300;
 font-family: "Montserrat";
 }
 .faq-s{
-  font-size: 28px;
-  letter-spacing: -1px;
+  font-size: 44px;
+  font-weight: 600;
+  font-family: "HelveticaNowDisplay";
+letter-spacing: 0.5px;
+margin-left: 3px;
 }
 
 /* footer section */
@@ -709,8 +711,19 @@ height: 97px;
   left: 36px;
   bottom: 36px;
 }
+.copyright p{
+  margin-top: 24px;
+  margin-bottom: 29px;
+  font-size: 16px;
+}
+
+
 
 /* service page css */
+
+
+
+
 
 .servicepage{
   padding: 50px 60px;
