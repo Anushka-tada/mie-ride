@@ -886,7 +886,13 @@ letter-spacing: 0.5px;
   font-size: 13px;
   font-weight: 700;
 }
-
+@media(max-width:1085px){
+  .step-item {
+    display: grid;
+    grid-template-columns: none;
+   
+  }
+}
 .p-span {
   font-size: 14px;
   font-weight: 300;

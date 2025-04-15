@@ -251,13 +251,13 @@ function page() {
 
           <div className="get-started">
              <div className="row">
-              <div className="col-md-6 col-12">
+              <div className="col-md-6 col-12 ">
               <h1>Download & Get Started</h1>
               <p className="mb-0" >Take control of your transportation needs with the Mie Ride app. </p>
               <p className="get-started-p">Available for both iOS and Android devices</p>
               <p className="mb-0">Scan the QR code to download directly to your device.</p>
               </div>
-              <div className="col-md-4 col-12 d-flex flex-column align-items-center justify-content-center">
+              <div className="col-md-4 col-12 mt-md-0 mt-4 d-flex flex-column align-items-center justify-content-center">
               
                   
 
@@ -265,7 +265,7 @@ function page() {
                   <a href="https://apps.apple.com/ca/app/mie-ride-driver/id6642649782"> <img src="/assets/app-store.png" className="app-store-img2"/></a>
                   <a href="https://play.google.com/store/apps/details?id=com.app.mieridedriver"> <img src="/assets/google-pay.png" className="google-img2"/> </a>             
                   </div>
-                  <img src="" className="user-app-img"/>
+                  <img src="/assets/user-app.png" className="user-app-img"/>
               </div>
              
              </div>
