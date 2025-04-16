@@ -950,11 +950,11 @@ height: 97px;
 
 
 
-.servicepage{
+.servicepage , .aboutpage{
   padding: 50px 60px;
   padding-bottom: 0 !important;
 }
-.serviceMain{
+.serviceMain , .aboutMain{
   margin-top: 60px;
 }
 .journey-section{
@@ -1137,7 +1137,7 @@ letter-spacing: 0.5px;
 }
 
 .get-started{
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 .get-started h1{
   font-size: 33px;
@@ -1162,4 +1162,203 @@ font-family: "Montserrat";
 .app-store-img2 , .google-img2{
   margin-bottom: 30px !important;
     width: 90px;
+}
+
+/* about service style */
+
+.about-h{
+  font-size: 32px;
+letter-spacing: 7px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: center;
+}
+.our-story h1 , .set-mie-apart h1 , .mission-values-section h1 , .join-journey h1{
+  font-size: 30px;
+letter-spacing: 0.5px;
+color: #cfff13;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+margin-bottom: 31px !important;
+}
+.our-story p{
+   font-size: 16px;
+   color: #ffffff;
+   font-weight: 300;
+   font-family: "Montserrat";
+   margin-bottom: 20px !important;
+}
+.our-story{
+  margin-top: 75px;
+}
+
+.set-mie-apart{
+  margin-bottom: 110px;
+}
+.founders{
+  margin-bottom: 15px;
+}
+.founders h1{
+  font-size: 30px;
+letter-spacing: -0.5px;
+color: #bbfc00;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+margin-bottom: 18px;
+}
+.founders p {
+  font-size: 14px; /* Font size adjusts as per screen width */
+  
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+}
+@media(max-width: 1155px){
+  .founders img {
+    width: 95%;
+    height: 100%;
+  }
+  .founders p , .our-story p{
+    font-size: 1.5vw; /* Font size adjusts as per screen width */
+  }
+  .founders h1 , .our-story h1 , .mission-values-section h1 , .join-journey h1 {
+    font-size: 2.6vw;
+    margin-bottom: 1.5vh !important;
+  }
+   .set-mie-apart h1 {
+    font-size: 2.6vw;
+    margin-bottom: 4vh !important;
+  }
+  .aboutpage{
+    padding: 5% 6%;
+  }
+  .about-h{
+    font-size: 3.2vw;
+    letter-spacing: 0.5vw;
+  }
+}
+.apart-card{
+  border-radius: 23px;
+background-color: #000000;
+border: 1px solid #bbfc00;
+box-shadow: 
+0 0 13px -5px #bbfc00, /* Outer glow */
+inset 0 0 13px -5px #bbfc00; /* Inner glow */
+padding: 28px 37px;
+height: 100%;
+}
+.center-apart-card{
+  margin-left: 9px;
+  margin-right: 9px;
+}
+.left-apart-card{
+  margin-right: 25px;
+}
+.right-apart-card{
+  margin-left: 25px;
+}
+.apart-card h3 , .mission h2{
+  font-size: 30px;
+letter-spacing: 0.5px;
+color: #ffeeee;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+margin-bottom: 15px;
+}
+.apart-card p{
+font-size: 14px;
+color: #ffeeee;
+font-weight: 300;
+font-family: "Montserrat";
+}
+.apart-card img {
+  width: 18%;
+  margin-bottom: 20px;
+}
+@media(max-width: 1160px){
+  .apart-card{
+    padding: 10% 12%;
+  }
+  .apart-card h3 , .mission h2{
+    font-size: 2.6vw;
+    margin-bottom: 1.3vh !important;
+  }
+  .apart-card p{
+    font-size: 1.3vw;
+  }
+}
+@media(max-width:768px){
+  .center-apart-card{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .left-apart-card{
+    margin-right: 0px;
+  }
+  .right-apart-card{
+    margin-left: 0px;
+  }
+  .set-mie-apart{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .set-mie-apart h1 {
+    font-size: 2.6vw;
+    margin-bottom: 6vh !important;
+  }
+  .aboutMain{
+    margin-top: 10vh;
+  }
+  .our-story{
+    margin-top: 11vh;
+  }
+}
+@media(max-width:499px){
+  .apart-card{
+    padding: 8% 10%;
+    border-radius: 17px;
+  }
+  .apart-card p{
+    margin-bottom: 0;
+  }
+  .apart-card img {
+   
+    margin-bottom: 10px;
+  }
+  .set-mie-apart{
+    margin-bottom: 10vh !important;
+  }
+  
+}
+.mission-values-section p {
+  font-size: 13px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+margin-bottom: 36px;
+}
+.join-journey{
+  margin-top: 16px;
+  padding-bottom: 78px;
+}
+.join-journey p{
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 33px;
+}
+
+@media(max-width: 800px){
+  .join-journey p{
+    font-size: 1.5vw;
+    margin-bottom: 1.8vh;
+  }
+  .mission-values-section p {
+    font-size: 1.5vw;
+  margin-bottom: 1.9vh;
+  }
 }
