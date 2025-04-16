@@ -183,7 +183,7 @@ function page() {
           </div>
 
           <div className="join-journey">
-               <h1>Join he Journey</h1>
+               <h1>Join The Journey</h1>
                <p>Mie Ride isn't just transforming how people move throughout Ontario – it's changing the entire relationship between transportation, community, and environment. Experience a ride service that offers consistency when others are unpredictable, builds connections when others create isolation, and considers environmental impact when others focus solely on profit.
                </p>
                <p>Book your first fixed-price ride today and discover what transportation can be when it's designed for people, not algorithms.</p>
