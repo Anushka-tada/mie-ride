@@ -950,11 +950,11 @@ height: 97px;
 
 
 
-.servicepage , .aboutpage{
+.servicepage , .aboutpage , .whyChooseMrpage{
   padding: 50px 60px;
   padding-bottom: 0 !important;
 }
-.serviceMain , .aboutMain{
+.serviceMain , .aboutMain , .whyChooseMrMain{
   margin-top: 60px;
 }
 .journey-section{
@@ -1231,7 +1231,7 @@ font-family: "Montserrat";
     font-size: 2.6vw;
     margin-bottom: 4vh !important;
   }
-  .aboutpage{
+  .aboutpage , .whyChooseMrpage{
     padding: 5% 6%;
   }
   .about-h{
@@ -1362,3 +1362,243 @@ margin-bottom: 36px;
   margin-bottom: 1.9vh;
   }
 }
+
+
+/* why choose mie ride page */
+
+.why-reasons{
+   margin-top: 100px;
+   gap: 95px;
+}
+
+.reason{
+  border-radius: 46px;
+  margin-bottom: 48px;
+  height: 100%;
+}
+.reasons-column1, .reasons-column2{
+  width: 50%;
+}
+.reason1{
+  border-radius: 46px;
+background-color: #000000;
+padding-bottom: 138px;
+}
+.reason-text1{
+  padding-left: 30px;
+  padding-right: 155px;
+  bottom: 20px;
+}
+.reason img {
+  border-top-right-radius: 46px;
+  border-top-left-radius: 46px;
+}
+ .img1{
+  opacity: 0.835;
+}
+.reason h1{
+  font-size: 30px;
+letter-spacing: 0.5px;
+color: #cfff13;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+margin-bottom: 23px;
+margin-top: 27px;
+}
+.reason p{
+  font-size: 15px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+margin-bottom: 15px;
+}
+
+.reason-text2{
+  padding-left: 40px;
+  padding-right: 155px;
+  bottom: 50px;
+}
+
+.reason4{
+background-color: #cfff13;
+border-radius: 46px;
+height: 280px;
+margin-bottom: 45px;
+}
+.reason-text4{
+  padding: 48px;
+}
+
+.reason4 h1{
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "HelveticaNowDisplay";
+  margin-bottom: 23px;
+
+}
+.reason4 p{
+  font-size: 15px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 15px;
+} 
+.reason6{
+  margin-bottom: 81px !important;
+}
+.reason5{
+  border-radius: 46px;
+  background-color: #141c20;
+  margin-top: 135px;
+  margin-bottom: 70px !important;
+  padding-bottom: 138px;
+}
+.reason-text5{
+  padding-left: 82px;
+  padding-right: 82px;
+  bottom: 35px;
+}
+.reason-text5 p{
+  text-align:  justify;
+  margin-bottom: 30px !important;
+}
+.reason5 img {
+  height: 85%;
+}
+.img1-outer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 9.26vh;
+  background: linear-gradient(to top, black, transparent);
+}
+
+.plan-journey{
+  margin-top: 20px;
+  padding-bottom: 82px;
+}
+.plan-journey h1{
+  font-size: 30px;
+letter-spacing: 0.5px;
+color: #cfff13;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+margin-bottom: 26px;
+}
+.plan-journey p {
+  font-size: 15px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+margin-bottom: 52px;
+}
+.download-btn{
+  color: white;
+  margin-bottom: 0px !important;
+}
+
+
+@media(max-width: 800px){
+  .reason{
+    height: 50%;
+  }
+  .reason4{
+    height: 15% !important;
+    }
+    .reason-text5 p {
+      text-align: justify;
+      margin-bottom: 0 !important;
+  }
+  .reason6 {
+    margin-bottom: 8vh !important;
+}
+  
+ }
+
+@media(max-width: 1400px){
+  .why-reasons{
+    margin-top: 20vh;
+    gap: 4.9vw;
+ }
+
+  .reason h1{
+    font-size: 2.3vw;
+  margin-bottom: 2.13vh;
+  }
+  .reason p{
+    font-size: 1vw;
+  margin-bottom: 1.39vh;
+  }
+  .plan-journey h1{
+    font-size: 2.3vw;
+  margin-bottom: 2.13vh !important;
+  }
+  .plan-journey p {
+    font-size: 1.3vw;
+  margin-bottom: 4.81vh;
+  }
+  .reason4 h1{
+    font-size: 2.3vw;
+    margin-bottom: 2.13vh;
+  
+  }
+  .reason4 p{
+    font-size: 1vw;
+    margin-bottom: 15px;
+  } 
+  .reason-text1 {
+    padding-left:1.56vw;;
+    padding-right: 8.5vw;
+    bottom: 2vh;
+}
+.reason-text5 {
+  padding-left: 4.27vw;
+  padding-right: 4.27vw;
+  bottom: 5vh;
+}
+.reason-text2 {
+  padding-left: 1.5vw;
+  padding-right: 8.7vw;
+  bottom: 7vh;
+}
+.reason-text4 {
+  padding: 2.5vw;
+}
+.reason5{
+  border-radius: 2.4vw;
+  margin-top: 12.5vh;
+  margin-bottom: 6.4vh !important;
+  padding-bottom: 12.4vh;
+}
+.reason4{
+  border-radius: 2.4vw;
+  height: 280px;
+  margin-bottom: 4.17vh;
+  }
+  .reason{
+    border-radius: 2.4vw;
+    margin-bottom: 4.27vh;
+  }
+  .reason1{
+    border-radius: 2.4vw;
+  padding-bottom: 12.4vh;
+  }
+  .reason img {
+    border-top-right-radius: 2.4vw;
+    border-top-left-radius: 2.4vw;
+  }
+  .download-btn{
+    font-size: 2.5vw !important;
+  }
+  
+  .app-store-img3, .google-img3 {
+    margin-top: 2.59vh !important;
+    width: 8vw;
+}
+}
+

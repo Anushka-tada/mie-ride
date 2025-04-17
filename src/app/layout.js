@@ -21,8 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
        <link
         href="https://fonts.googleapis.com/css?family=Montserrat"
-        rel="stylesheet"
-      />
+         rel="stylesheet" precedence="default"></link>
       <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet"></link>
 
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'></link>
