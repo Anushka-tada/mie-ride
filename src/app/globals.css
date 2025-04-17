@@ -1120,6 +1120,35 @@ font-weight: 300;
 font-family: "Montserrat";
 }
 
+@media(max-width:1400px){
+  .journey-section{
+    margin-bottom: 8vh;
+  }
+   .journey-section h2{
+    font-size: 2.3vw;
+    margin-bottom: 7vh !important;
+   }
+   .journey-section > p {
+    font-size: 1.2vw;
+  margin-bottom: 7vh !important;
+  }
+  .book-btn {
+    width: 17.36vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: auto !important;
+  border-radius: 3vw;
+  }
+  .book-btn p{
+    font-size: 1.2vw;
+
+  }
+  .core-services h1{
+    font-size: 2.3vw;
+    margin-bottom: 7vh;
+  }
+}
+
 
 .how-works{
   margin-top: 90px;
@@ -1166,13 +1195,6 @@ letter-spacing: 0.5px;
   font-size: 13px;
   font-weight: 700;
 }
-@media(max-width:1085px){
-  .step-item {
-    display: grid;
-    grid-template-columns: none;
-   
-  }
-}
 .p-span {
   font-size: 14px;
   font-weight: 300;
@@ -1200,11 +1222,62 @@ font-family: "Montserrat";
 .get-started-p{
   margin-bottom: 39px;
 }
-
 .app-store-img2 , .google-img2{
   margin-bottom: 30px !important;
     width: 90px;
 }
+@media(max-width:1400px){
+  .how-works{
+    margin-top: 13vh;
+    margin-bottom: 10vh;
+  }
+  .how-works h1{
+    font-size: 2.3vw;
+    margin-bottom: 3vh !important;
+  }
+  .work-card{
+    padding: 3%;
+    border-radius: 3vw;
+    padding-top: 6vh;
+    padding-left: 3.4vw;
+    padding-bottom: 5vh;
+    padding-right: 3.4vw;
+  }
+  .work-card h3{
+    margin-bottom: 3vh;
+    font-size: 2.3vw;
+  }
+  .work-card .steps{
+    gap: 1.3vw;
+  }
+  .step-item {
+    grid-template-columns: 12.8vw 1fr; 
+    font-size: 1vw;
+  }
+  .p-span {
+    font-size: 1.2vw;
+  
+  }
+  .get-started{
+    padding-bottom: 15vh;
+  }
+  .get-started h1{
+    font-size: 2.3vw;
+    margin-bottom: 3vh !important;
+  }
+  .get-started p{
+    font-size: 1.3vw;
+  
+  }
+  .get-started-p{
+    margin-bottom:  3vh;
+  }
+  .app-store-img2 , .google-img2{
+    margin-bottom: 30px !important;
+      width: 9vw;
+  }
+}
+
 
 /* about service style */
 

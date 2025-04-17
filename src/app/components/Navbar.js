@@ -26,10 +26,10 @@ function Navbar({   selectedItem}) {
       name: "Why Mie Ride",
       path: "/pages/why-mie-ride",
     },
-    {
-      name: "Testimonials",
-      path: "/pages/testimonials",
-    },
+    // {
+    //   name: "Testimonials",
+    //   path: "/pages/testimonials",
+    // },
     {
       name: "Blogs",
       path: "/pages/blogs",
@@ -38,10 +38,10 @@ function Navbar({   selectedItem}) {
       name: "Advertise With Us",
       path: "/pages/advertise-with-us",
     },
-    {
-      name: "Partner With Us",
-      path: "/pages/partner-with-us",
-    },
+    // {
+    //   name: "Partner With Us",
+    //   path: "/pages/partner-with-us",
+    // },
     {
       name: "Contact Us",
       path: "/pages/contact",

@@ -68,7 +68,7 @@ function page() {
           <div className="core-services">
             <h1>Our Core Services</h1>
             <div className="row service-row">
-              <div className="col-lg-8 col-12 position-relative d-flex">
+              <div className="col-8 position-relative d-flex">
                 <img
                   src="/assets/curl2.png"
                   className=" position-absolute curl1"
@@ -114,7 +114,7 @@ function page() {
                   </p>
                 </div>
               </div>
-              <div className="col-lg-4 col-12">
+              <div className="col-4">
                 <h1>What's Coming Soon</h1>
                 <div>
                   <div className="cs-card">
@@ -172,7 +172,7 @@ function page() {
           <div className="how-works">
             <h1>How It Works</h1>
             <div className="row g-4 work-cards">
-              <div className="col-md-6 col-12 px-3">
+              <div className="col-lg-6 col-12 px-3">
                 <div className="work-card">
                   <h3>For Passengers:</h3>
                   <div className="steps d-flex flex-column">
@@ -209,7 +209,7 @@ function page() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-12 px-3">
+              <div className="col-lg-6 col-12 px-3">
               <div className="work-card">
                   <h3>For Drivers:</h3>
                   <div className="steps d-flex flex-column">
@@ -249,19 +249,19 @@ function page() {
             </div>
           </div>
 
-          <div className="get-started">
+          <div className="get-started ">
              <div className="row">
-              <div className="col-md-6 col-12 ">
+              <div className="col-6  ">
               <h1>Download & Get Started</h1>
               <p className="mb-0" >Take control of your transportation needs with the Mie Ride app. </p>
               <p className="get-started-p">Available for both iOS and Android devices</p>
               <p className="mb-0">Scan the QR code to download directly to your device.</p>
               </div>
-              <div className="col-md-4 col-12 mt-md-0 mt-4 d-flex flex-column align-items-center justify-content-center">
+              <div className="col-4  d-flex flex-column align-items-center justify-content-center">
               
                   
 
-                  <div className="d-flex justify-content-start">
+                  <div className="d-flex justify-content-start ">
                   <a href="https://apps.apple.com/ca/app/mie-ride-driver/id6642649782"> <img src="/assets/app-store.png" className="app-store-img2"/></a>
                   <a href="https://play.google.com/store/apps/details?id=com.app.mieridedriver"> <img src="/assets/google-pay.png" className="google-img2"/> </a>             
                   </div>
