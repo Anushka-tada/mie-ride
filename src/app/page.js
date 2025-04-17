@@ -67,7 +67,7 @@ function page() {
                 robotes setting prices - just real solutions for real people.
                 Come ride with us and join our growing community today!
               </p>
-               <div>
+               <div className="d-flex flex-column align-items-md-start align-items-center">
                 <h2>Download Now</h2> 
                 <div className="d-flex">
                  <a href="https://apps.apple.com/ca/app/mie-ride/id6639612972"> <img src="/assets/app-store.png" className="app-store-img3"/></a>
@@ -128,8 +128,8 @@ function page() {
           </div>
           <div className="row mt-md-5 mt-0 pt-md-5 pt-0 ">
             <div className="col-md-10 col-12 m-md-0 mx-0 mt-3 p-0 row ">
-              <div className="col-md-4 col-12 mb-4">
-                <div className="homeCardBox h-100">
+              <div className="col-4 mb-4">
+                <div className="homeCardBox rider">
                   <h2>Shared Ride</h2>
                   <p>
                     Travel together, split costs reduse emissions-smart
@@ -138,8 +138,8 @@ function page() {
                   <button>Read More</button>
                 </div>
               </div>
-              <div className="col-md-4 col-12  mb-4">
-                <div className="homeCardBox h-100">
+              <div className="col-4 mb-4">
+                <div className="homeCardBox ">
                   <h2>Personal Ride</h2>
                   <p>
                     Book your own private journey with fixed pricing and
@@ -148,8 +148,8 @@ function page() {
                   <button>Read More</button>
                 </div>
               </div>
-              <div className="col-md-4 col-12  mb-4">
-                <div className="homeCardBox h-100">
+              <div className="col-4 mb-4 ">
+                <div className="homeCardBox driver">
                   <h2>Driver Onboard</h2>
                   <p>
                     Join our team, set your schedule, earn consistently while

@@ -110,6 +110,7 @@ margin-top: 42px;
   border-bottom: none;
   padding: 40px 20px;
   border-radius: 24px;
+  height: 100%;
 }
 .homeCardBox h2 {
   font-size: 35px;
@@ -136,6 +137,47 @@ margin-top: 42px;
   color: #000000;
   font-weight: 700;
   font-family: "Montserrat";
+}
+@media(max-width: 955px){
+  .homeCardBox {
+    padding: 2vh 1.3vw;
+    border-radius: 1.6vw;
+  }
+  .homeCardBox h2 {
+    font-size: 1.82vw;
+  }
+  .homeCardBox p {
+    font-size: 1vw;
+    margin: 1.65vh 0px;
+  }
+  .homeCardBox button {
+    width: 8.73vw;
+    height: 1.34vh;
+    border-radius: 1.5vw;
+    font-size: 1.1vw;
+  }
+  .faq-content {
+    margin-top: 1vh !important;
+    margin-bottom: 8vh !important;
+}
+.homeContent h2{
+  font-size: 4.2vw;
+margin-top: 42px;
+}
+.driver, .rider{
+  margin-top: 3vh;
+}
+}
+
+@media(max-width: 500px){
+  .homeCardBox {
+    padding: 2vh 1.3vw;
+    border-radius: 1.6vw;
+    height: auto !important;
+  }
+  .driver, .rider{
+    margin-top: 4.5vh !important;
+  }
 }
 .miePayLogo {
   z-index: 2;
@@ -398,13 +440,13 @@ margin-top: 42px;
     border: none;
     font-family: "Montserrat";
   }
-  .homeCardBox h2 {
+  /* .homeCardBox h2 {
     font-size: 20px;
   }
   .homeCardBox p {
     font-size: 12px;
     margin: 5px 0px;
-  }
+  } */
   .homeCardBox {
     margin: 20px 0px;
   }
@@ -1309,11 +1351,11 @@ font-family: "Montserrat";
     font-size: 2.6vw;
     margin-bottom: 6vh !important;
   }
-  .aboutMain{
-    margin-top: 10vh;
+  .aboutMain , .whyChooseMrMain{
+    margin-top: 5vh;
   }
   .our-story{
-    margin-top: 11vh;
+    margin-top: 5vh;
   }
 }
 @media(max-width:499px){
@@ -1522,7 +1564,7 @@ margin-bottom: 52px;
 
 @media(max-width: 1400px){
   .why-reasons{
-    margin-top: 20vh;
+    margin-top: 10vh;
     gap: 4.9vw;
  }
 
@@ -1598,7 +1640,7 @@ margin-bottom: 52px;
   
   .app-store-img3, .google-img3 {
     margin-top: 2.59vh !important;
-    width: 8vw;
+    width: 14vw;
 }
 }
 
