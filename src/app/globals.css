@@ -3,9 +3,8 @@
   padding: 0px;
 }
 @font-face {
-  font-family: 'HelveticaNowDisplay';
-  src: url('/font/HelveticaNowDisplay-Regular.woff') format('woff');
- 
+  font-family: "HelveticaNowDisplay";
+  src: url("/font/HelveticaNowDisplay-Regular.woff") format("woff");
 }
 
 .mainDiv {
@@ -17,13 +16,13 @@
     rgba(17, 17, 17, 0.9999999999999999) 100%
   ); */
   background-image: radial-gradient(
-  circle at bottom center,
-     rgba(58,61,70,0.996078431372549) 0%,
-     rgba(62, 65, 73, 0.996) 0%,
-     rgba(21, 21, 21, 0.998) 40%,
-     rgb(0, 0, 0) 100%
-     );
-     /* padding-bottom: 50px; */
+    circle at bottom center,
+    rgba(58, 61, 70, 0.996078431372549) 0%,
+    rgba(62, 65, 73, 0.996) 0%,
+    rgba(21, 21, 21, 0.998) 40%,
+    rgb(0, 0, 0) 100%
+  );
+  /* padding-bottom: 50px; */
 }
 .homepage {
   /* background-image: url("/assets/backround2.jpg");
@@ -92,20 +91,20 @@
   text-align: justify;
   margin-bottom: 0;
 }
-.homeContent h2{
+.homeContent h2 {
   font-size: 27px;
-color: #bbfc00;
-font-weight: 700;
-font-family: "Montserrat";
-margin-bottom: 0;
-margin-top: 42px;
+  color: #bbfc00;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 0;
+  margin-top: 42px;
 }
-.app-store-img3 , .google-img3{
+.app-store-img3,
+.google-img3 {
   margin-top: 28px !important;
-    width: 133px;
+  width: 133px;
 }
 .homeCardBox {
-  
   border: 1px solid whitesmoke;
   border-bottom: none;
   padding: 40px 20px;
@@ -138,7 +137,7 @@ margin-top: 42px;
   font-weight: 700;
   font-family: "Montserrat";
 }
-@media(max-width: 955px){
+@media (max-width: 955px) {
   .homeCardBox {
     padding: 2vh 1.3vw;
     border-radius: 1.6vw;
@@ -159,34 +158,36 @@ margin-top: 42px;
   .faq-content {
     margin-top: 1vh !important;
     margin-bottom: 8vh !important;
-}
-.homeContent h2{
-  font-size: 4.2vw;
-margin-top: 42px;
-}
-.driver, .rider{
-  margin-top: 3vh;
-}
+  }
+  .homeContent h2 {
+    font-size: 4.2vw;
+    margin-top: 42px;
+  }
+  .driver,
+  .rider {
+    margin-top: 3vh;
+  }
 }
 
-@media(max-width: 500px){
+@media (max-width: 500px) {
   .homeCardBox {
     padding: 2vh 1.3vw;
     border-radius: 1.6vw;
     height: auto !important;
   }
-  .driver, .rider{
+  .driver,
+  .rider {
     margin-top: 4.5vh !important;
   }
 }
 .miePayLogo {
   z-index: 2;
 }
-.miePayLogo-outer{
+.miePayLogo-outer {
   bottom: 3%;
   right: 5%;
 }
-.miePayLogo img{
+.miePayLogo img {
   height: 80px;
   width: 80px;
   border-radius: 20px;
@@ -597,7 +598,7 @@ margin-top: 42px;
     font-weight: 700;
     height: 35px;
   }
-  .miePayLogo img{
+  .miePayLogo img {
     height: 40px;
     width: 40px;
     border-radius: 10px;
@@ -620,7 +621,7 @@ margin-top: 42px;
   transition: right 0.3s ease-in-out;
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
 }
-.mobileNavItem p{
+.mobileNavItem p {
   color: white;
 }
 .mobileNav.show {
@@ -636,123 +637,117 @@ margin-top: 42px;
   background: rgba(0, 0, 0, 0.4);
   z-index: 1040;
 }
-.miePayLogo{
+.miePayLogo {
   position: fixed;
   right: 20px;
   bottom: 20px;
 }
 
-
-.faq-content{
+.faq-content {
   margin-top: 85px;
   margin-bottom: 65px;
 }
-.faq-content h1{
-
+.faq-content h1 {
   color: #cfff13;
-font-weight:600;
-letter-spacing: -1px;
-font-size: 52px;
-font-family: "HelveticaNowDisplay";
-letter-spacing: 0.5px;
-
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 52px;
+  font-family: "HelveticaNowDisplay";
+  letter-spacing: 0.5px;
 }
-.faq-content > p{
-
+.faq-content > p {
   font-size: 20px;
-color: #ffffff;
-font-weight: 300;
-margin-bottom: 36px;
-font-family: "Montserrat";
-
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 36px;
+  font-family: "Montserrat";
 }
 .faq {
   opacity: 0.9;
-border-radius: 34px;
-background-color: #0000008d;
-padding: 20px 31px !important;
+  border-radius: 34px;
+  background-color: #0000008d;
+  padding: 20px 31px !important;
 }
-.faq-row{
+.faq-row {
   gap: 34px;
 }
-.faq h5{
+.faq h5 {
   font-size: 15px;
   font-family: "Montserrat";
-color: #cfff13;
-font-weight: 700;
+  color: #cfff13;
+  font-weight: 700;
 }
-.faq p{
+.faq p {
   font-size: 12px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
-.faq-s{
+.faq-s {
   font-size: 44px;
   font-weight: 600;
   font-family: "HelveticaNowDisplay";
-letter-spacing: 0.5px;
-margin-left: 4px;
+  letter-spacing: 0.5px;
+  margin-left: 4px;
 }
 
-@media(max-width:700px){
-    .faq-content > p{
-      font-size:  10px;
-    }
-    .faq-content h1{
-      font-size: 30px;
-    }
-    .faq-s{
-        font-size: 19px !important;
-    }
-    .faq{
-      padding: 10px 21px !important;
-      border-radius: 24px;
-    }
-    .faq h5{
-      font-size: 10px;
-    }
-    .faq p {
-      font-size: 8px;
-    }
-    .faq-content > p{
-      margin-bottom: 16px;
-    }
-    .faq-row{
-      gap: 12px;
-      margin-bottom: 12px !important;
-    }
-}
-@media(max-width:426px){
-  .faq-content > p{
-    font-size:  7px;
+@media (max-width: 700px) {
+  .faq-content > p {
+    font-size: 10px;
   }
-  .faq-content h1{
+  .faq-content h1 {
+    font-size: 30px;
+  }
+  .faq-s {
+    font-size: 19px !important;
+  }
+  .faq {
+    padding: 10px 21px !important;
+    border-radius: 24px;
+  }
+  .faq h5 {
+    font-size: 10px;
+  }
+  .faq p {
+    font-size: 8px;
+  }
+  .faq-content > p {
+    margin-bottom: 16px;
+  }
+  .faq-row {
+    gap: 12px;
+    margin-bottom: 12px !important;
+  }
+}
+@media (max-width: 426px) {
+  .faq-content > p {
+    font-size: 7px;
+  }
+  .faq-content h1 {
     font-size: 25px;
   }
-  .faq-s{
-      font-size: 14px !important;
+  .faq-s {
+    font-size: 14px !important;
   }
-  .faq{
+  .faq {
     padding: 10px 21px !important;
     border-radius: 20px;
   }
-  .faq h5{
+  .faq h5 {
     font-size: 7px;
   }
   .faq p {
     font-size: 6px;
   }
- 
 }
 /* footer section */
 
-.footer{
-padding: 49px 36px;
- 
-background-color: #bbfc00;
+.footer {
+  padding: 49px 36px;
+
+  background-color: #bbfc00;
 }
-.footer h5{
+.footer h5 {
   font-size: 25px;
   color: #000000;
   font-weight: 700;
@@ -766,37 +761,36 @@ background-color: #bbfc00;
   margin-bottom: 12px !important;
 }
 
-.footer-card{
+.footer-card {
   padding: 29px 37px !important;
   border-radius: 30px;
-background-color: #1f1f1f;
-border: 1.87px solid white ;
-border-bottom: none;
-height: 100%;
+  background-color: #1f1f1f;
+  border: 1.87px solid white;
+  border-bottom: none;
+  height: 100%;
 }
 .footer-card p {
   font-size: 16px;
   line-height: 21px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
 
-.user-app-img{
+.user-app-img {
   width: 126px;
-height: 97px;
-
+  height: 97px;
 }
-.app-store-img , .google-img{
+.app-store-img,
+.google-img {
   margin-top: 30px !important;
-    width: 90px;
+  width: 90px;
 }
 
 .socialMediaDiv img {
   margin-bottom: 20px;
   height: 20px;
   width: 20px;
-
 }
 .socialMediaDiv {
   display: flex;
@@ -805,37 +799,38 @@ height: 97px;
   left: 36px;
   bottom: 36px;
 }
-.copyright p{
+.copyright p {
   margin-top: 24px;
   margin-bottom: 29px;
   font-size: 16px;
 }
 
-@media(max-width:1300px){
-  .user-app-img{
+@media (max-width: 1300px) {
+  .user-app-img {
     width: 40%;
-   height: auto;
+    height: auto;
   }
-  .store-images{
+  .store-images {
     flex-wrap: wrap !important;
     justify-content: center;
   }
-  .app-store-img , .google-img{
+  .app-store-img,
+  .google-img {
     margin-top: 5px !important;
   }
-  .footer-card{
+  .footer-card {
     padding: 27px 30px !important;
   }
-  .footer-card p{
+  .footer-card p {
     font-size: 14px;
   }
 }
-@media(max-width:991px){
-  .terms-outer{
-     display: flex;
-     justify-content: space-between;
+@media (max-width: 991px) {
+  .terms-outer {
+    display: flex;
+    justify-content: space-between;
   }
-  .terms{
+  .terms {
     display: flex;
     gap: 15px;
   }
@@ -851,55 +846,55 @@ height: 97px;
     bottom: 36px;
   }
 }
-@media(max-width:890px){
-    .footer-card{
-      flex-wrap: wrap-reverse;
-    }
-    .footer-card > div{
-      display: flex !important;
-      flex-direction: row !important;
-      gap: 5%;
-    }
-     .user-app-img{
-    width: 30%;
-   height: auto;
+@media (max-width: 890px) {
+  .footer-card {
+    flex-wrap: wrap-reverse;
   }
-  .store-images{
+  .footer-card > div {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 5%;
+  }
+  .user-app-img {
+    width: 30%;
+    height: auto;
+  }
+  .store-images {
     flex-wrap: wrap !important;
     flex-direction: column;
     justify-content: center;
   }
 }
-@media(max-width:720px){
-  .footer-card{
+@media (max-width: 720px) {
+  .footer-card {
     flex-wrap: wrap-reverse;
   }
-  .footer-card > div{
+  .footer-card > div {
     display: flex !important;
     flex-direction: row !important;
     gap: 5%;
   }
-   .user-app-img{
-  width: 30%;
- height: auto;
-}
-.store-images{
-  flex-wrap: wrap !important;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer{
-  padding: 39px 26px !important;
+  .user-app-img {
+    width: 30%;
+    height: auto;
+  }
+  .store-images {
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    padding: 39px 26px !important;
   }
   .footer-p {
     font-size: 14px !important;
     margin-bottom: 12px !important;
   }
-  .footer-card{
+  .footer-card {
     padding: 17px 20px !important;
   }
-  .terms{
+  .terms {
     display: flex;
     gap: 15px;
   }
@@ -913,126 +908,125 @@ height: 97px;
     background-position: 50% 15%;
   }
 }
-@media(max-width:618px){
-  .footer{
+@media (max-width: 618px) {
+  .footer {
     padding: 29px 16px !important;
   }
-   .footer-card p {
+  .footer-card p {
     font-size: 8px;
     line-height: 10px;
-   }
+  }
 
-   .socialMediaDiv img {
+  .socialMediaDiv img {
     margin-bottom: 10px;
     height: 10px;
     width: 10px;
   }
-  .socialMediaDiv{
+  .socialMediaDiv {
     gap: 4px;
     bottom: 50px;
   }
-  .app-store-img , .google-img{
-   width: 60%;
-   margin-top: 0px !important;
+  .app-store-img,
+  .google-img {
+    width: 60%;
+    margin-top: 0px !important;
   }
-  .terms{
+  .terms {
     display: flex;
     gap: 10px;
   }
-  footer h5{
+  footer h5 {
     font-size: 13px !important;
   }
   .footer-p {
     font-size: 10px !important;
   }
-}  
+}
 
-@media(max-width:426px){
+@media (max-width: 426px) {
   .footer-p {
     font-size: 6px !important;
     margin-bottom: 12px !important;
   }
-  .footer-card{
+  .footer-card {
     padding: 10px 13px !important;
     gap: 9px !important;
     border-radius: 18px;
-    
   }
-  .footer h5{
-      font-size: 15px;
-      margin-bottom: 13px;
+  .footer h5 {
+    font-size: 15px;
+    margin-bottom: 13px;
   }
   .footer-card p {
     font-size: 5px;
     line-height: 6px;
-   }
-   .socialMediaDiv{
+  }
+  .socialMediaDiv {
     gap: 10px;
     bottom: 40px;
-    
-   }
-   .socialMediaDiv img {
+  }
+  .socialMediaDiv img {
     margin-bottom: 0px !important;
-   }
-   .socialMediaDiv a{
-      height: 10px;
-   }
-   .homepage {
+  }
+  .socialMediaDiv a {
+    height: 10px;
+  }
+  .homepage {
     background-image: url("/assets/hero-backround.jpg");
     background-position: 20% 11%;
   }
-  .store-images a{
+  .store-images a {
     height: 18px;
   }
-}  
+}
 
 /* service page css */
 
-
-
-
-
-.servicepage , .aboutpage , .whyChooseMrpage{
+.servicepage,
+.aboutpage,
+.whyChooseMrpage {
   padding: 50px 60px;
   padding-bottom: 0 !important;
 }
-.serviceMain , .aboutMain , .whyChooseMrMain{
+.serviceMain,
+.aboutMain,
+.whyChooseMrMain {
   margin-top: 60px;
 }
-.journey-section{
+.journey-section {
   margin-bottom: 67px;
 }
-.journey-section h2{
+.journey-section h2 {
   font-size: 33px;
-letter-spacing: -1px;
-color: #cfff13;
-font-weight: 600;
-margin-bottom: 30px !important;
-font-family: "HelveticaNowDisplay";
-letter-spacing: 0.5px;
+  letter-spacing: -1px;
+  color: #cfff13;
+  font-weight: 600;
+  margin-bottom: 30px !important;
+  font-family: "HelveticaNowDisplay";
+  letter-spacing: 0.5px;
 }
 .journey-section > p {
   font-size: 17px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
-margin-bottom: 33px !important;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 33px !important;
 }
 .book-btn {
   width: 250px;
-height: 54px;
-border-radius: 36px;
-filter: drop-shadow(-6.947px 7.193px 4px rgba(0,0,0,0.86));
-background-color: #ceff13;
+  height: 54px;
+  border-radius: 36px;
+  filter: drop-shadow(-6.947px 7.193px 4px rgba(0, 0, 0, 0.86));
+  background-color: #ceff13;
 }
-.book-btn p{
+.book-btn p {
   font-size: 20px;
-color: #000000;
-font-weight: 700;
-font-family: "Montserrat";
+  color: #000000;
+  font-weight: 700;
+  font-family: "Montserrat";
 }
 
-.core-services h1{
+.core-services h1 {
   font-size: 33px;
   letter-spacing: -1px;
   color: #cfff13;
@@ -1041,24 +1035,24 @@ font-family: "Montserrat";
   font-family: "HelveticaNowDisplay";
   letter-spacing: 0.5px;
 }
-.service-row{
+.service-row {
   padding-left: 33px;
   padding-right: 45px;
 }
-.curl1{
+.curl1 {
   rotate: 240deg;
   left: 0;
   bottom: 50%;
 }
-.curl2{
-  top:30;
+.curl2 {
+  top: 30;
   right: 9%;
   bottom: 20%;
 }
-.mobile{
+.mobile {
   margin-left: 10%;
 }
-.shared-ride{
+.shared-ride {
   padding: 20px 24px;
   background-color: #000;
   border-radius: 27px;
@@ -1066,7 +1060,7 @@ font-family: "Montserrat";
   right: 10%;
   top: 10%;
 }
-.personal-ride{
+.personal-ride {
   padding: 20px 24px;
   background-color: #000;
   border-radius: 27px;
@@ -1074,37 +1068,37 @@ font-family: "Montserrat";
   bottom: 4%;
   left: 12%;
 }
-.elips{
+.elips {
   width: 25px;
-height: 25px;
-border-radius: 12px;
-background-color: #bbfc00;
+  height: 25px;
+  border-radius: 12px;
+  background-color: #bbfc00;
 }
-.shared-ride-h{
+.shared-ride-h {
   font-size: 33px;
   letter-spacing: -1px;
   color: #cfff13;
   font-weight: 600;
- 
 }
-.h-box{
+.h-box {
   margin-bottom: 10px;
 }
-.shared-ride p , .personal-ride p{
+.shared-ride p,
+.personal-ride p {
   font-size: 13px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
-line-height: 17px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  line-height: 17px;
 }
-.cs-card{
+.cs-card {
   padding: 21px;
   margin-bottom: 21px;
   box-shadow: -1px -1px 3px 0 white, 1px 1px 0 transparent;
   border-radius: 27px;
   opacity: 0.7;
 }
-.cs-card h4{
+.cs-card h4 {
   font-size: 19px;
   letter-spacing: 0px;
   color: #cfff13;
@@ -1113,60 +1107,58 @@ line-height: 17px;
   font-family: "HelveticaNowDisplay";
   letter-spacing: 0.5px;
 }
-.cs-card p{
-font-size: 9px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
+.cs-card p {
+  font-size: 9px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
 
-@media(max-width:1400px){
-  .journey-section{
+@media (max-width: 1400px) {
+  .journey-section {
     margin-bottom: 8vh;
   }
-   .journey-section h2{
+  .journey-section h2 {
     font-size: 2.3vw;
     margin-bottom: 7vh !important;
-   }
-   .journey-section > p {
+  }
+  .journey-section > p {
     font-size: 1.2vw;
-  margin-bottom: 7vh !important;
+    margin-bottom: 7vh !important;
   }
   .book-btn {
     width: 17.36vw;
     padding-top: 1%;
     padding-bottom: 1%;
     height: auto !important;
-  border-radius: 3vw;
+    border-radius: 3vw;
   }
-  .book-btn p{
+  .book-btn p {
     font-size: 1.2vw;
-
   }
-  .core-services h1{
+  .core-services h1 {
     font-size: 2.3vw;
     margin-bottom: 7vh;
   }
 }
 
-
-.how-works{
+.how-works {
   margin-top: 90px;
   margin-bottom: 75px;
 }
-.how-works h1{
+.how-works h1 {
   font-size: 40px;
-letter-spacing: -1px;
-color: #cfff13;
-font-weight: 600;
-margin-bottom: 40px;
-font-family: "HelveticaNowDisplay";
-letter-spacing: 0.5px;
+  letter-spacing: -1px;
+  color: #cfff13;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-family: "HelveticaNowDisplay";
+  letter-spacing: 0.5px;
 }
 
-.work-card{
+.work-card {
   padding: 21px;
- 
+
   box-shadow: -1px -1px 0px 0 white, 1px 1px 1px 0 rgb(20, 20, 20);
   border-radius: 27px;
   padding-top: 38px;
@@ -1174,21 +1166,21 @@ letter-spacing: 0.5px;
   padding-bottom: 40px;
   padding-right: 51px;
 }
-.work-card h3{
+.work-card h3 {
   margin-bottom: 22px;
   font-size: 33px;
-letter-spacing: -1px;
-color: #ffffff;
-font-weight: 600;
-font-family: "HelveticaNowDisplay";
-letter-spacing: 0.5px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "HelveticaNowDisplay";
+  letter-spacing: 0.5px;
 }
-.work-card .steps{
+.work-card .steps {
   gap: 15px;
 }
 .step-item {
   display: grid;
-  grid-template-columns: 185px 1fr; 
+  grid-template-columns: 185px 1fr;
   align-items: start;
   color: #ffffff;
   font-family: "Montserrat";
@@ -1200,42 +1192,42 @@ letter-spacing: 0.5px;
   font-weight: 300;
 }
 
-.get-started{
+.get-started {
   padding-bottom: 150px;
 }
-.get-started h1{
+.get-started h1 {
   font-size: 33px;
-letter-spacing: -1px;
-color: #cfff13;
-font-weight: 600;
-font-family: "HelveticaNowDisplay";
-letter-spacing: 0.5px;
-margin-bottom: 31px;
+  letter-spacing: -1px;
+  color: #cfff13;
+  font-weight: 600;
+  font-family: "HelveticaNowDisplay";
+  letter-spacing: 0.5px;
+  margin-bottom: 31px;
 }
-.get-started p{
+.get-started p {
   font-size: 13px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
-
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
-.get-started-p{
+.get-started-p {
   margin-bottom: 39px;
 }
-.app-store-img2 , .google-img2{
+.app-store-img2,
+.google-img2 {
   margin-bottom: 30px !important;
-    width: 90px;
+  width: 90px;
 }
-@media(max-width:1400px){
-  .how-works{
+@media (max-width: 1400px) {
+  .how-works {
     margin-top: 13vh;
     margin-bottom: 10vh;
   }
-  .how-works h1{
+  .how-works h1 {
     font-size: 2.3vw;
     margin-bottom: 3vh !important;
   }
-  .work-card{
+  .work-card {
     padding: 3%;
     border-radius: 3vw;
     padding-top: 6vh;
@@ -1243,179 +1235,186 @@ font-family: "Montserrat";
     padding-bottom: 5vh;
     padding-right: 3.4vw;
   }
-  .work-card h3{
+  .work-card h3 {
     margin-bottom: 3vh;
     font-size: 2.3vw;
   }
-  .work-card .steps{
+  .work-card .steps {
     gap: 1.3vw;
   }
   .step-item {
-    grid-template-columns: 12.8vw 1fr; 
+    grid-template-columns: 12.8vw 1fr;
     font-size: 1vw;
   }
   .p-span {
     font-size: 1.2vw;
-  
   }
-  .get-started{
+  .get-started {
     padding-bottom: 15vh;
   }
-  .get-started h1{
+  .get-started h1 {
     font-size: 2.3vw;
     margin-bottom: 3vh !important;
   }
-  .get-started p{
+  .get-started p {
     font-size: 1.3vw;
-  
   }
-  .get-started-p{
-    margin-bottom:  3vh;
+  .get-started-p {
+    margin-bottom: 3vh;
   }
-  .app-store-img2 , .google-img2{
+  .app-store-img2,
+  .google-img2 {
     margin-bottom: 30px !important;
-      width: 9vw;
+    width: 9vw;
   }
 }
-
 
 /* about service style */
 
-.about-h{
+.about-h {
   font-size: 32px;
-letter-spacing: 7px;
-text-transform: uppercase;
-color: #ffffff;
-font-weight: 500;
-font-family: "Montserrat";
-text-align: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-align: center;
 }
-.our-story h1 , .set-mie-apart h1 , .mission-values-section h1 , .join-journey h1{
+.our-story h1,
+.set-mie-apart h1,
+.mission-values-section h1,
+.join-journey h1 {
   font-size: 30px;
-letter-spacing: 0.5px;
-color: #cfff13;
-font-weight: bold;
-font-family: "HelveticaNowDisplay";
-margin-bottom: 31px !important;
+  letter-spacing: 0.5px;
+  color: #cfff13;
+  font-weight: bold;
+  font-family: "HelveticaNowDisplay";
+  margin-bottom: 31px !important;
 }
-.our-story p{
-   font-size: 16px;
-   color: #ffffff;
-   font-weight: 300;
-   font-family: "Montserrat";
-   margin-bottom: 20px !important;
+.our-story p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 20px !important;
 }
-.our-story{
+.our-story {
   margin-top: 75px;
 }
 
-.set-mie-apart{
+.set-mie-apart {
   margin-bottom: 110px;
 }
-.founders{
+.founders {
   margin-bottom: 15px;
 }
-.founders h1{
+.founders h1 {
   font-size: 30px;
-letter-spacing: -0.5px;
-color: #bbfc00;
-font-weight: bold;
-font-family: "HelveticaNowDisplay";
-margin-bottom: 18px;
+  letter-spacing: -0.5px;
+  color: #bbfc00;
+  font-weight: bold;
+  font-family: "HelveticaNowDisplay";
+  margin-bottom: 18px;
 }
 .founders p {
   font-size: 14px; /* Font size adjusts as per screen width */
-  
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
+
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
-@media(max-width: 1155px){
+@media (max-width: 1155px) {
   .founders img {
     width: 95%;
     height: 100%;
   }
-  .founders p , .our-story p{
+  .founders p,
+  .our-story p {
     font-size: 1.5vw; /* Font size adjusts as per screen width */
   }
-  .founders h1 , .our-story h1 , .mission-values-section h1 , .join-journey h1 {
+  .founders h1,
+  .our-story h1,
+  .mission-values-section h1,
+  .join-journey h1 {
     font-size: 2.6vw;
     margin-bottom: 1.5vh !important;
   }
-   .set-mie-apart h1 {
+  .set-mie-apart h1 {
     font-size: 2.6vw;
     margin-bottom: 4vh !important;
   }
-  .aboutpage , .whyChooseMrpage{
+  .aboutpage,
+  .whyChooseMrpage {
     padding: 5% 6%;
   }
-  .about-h{
+  .about-h {
     font-size: 3.2vw;
     letter-spacing: 0.5vw;
   }
 }
-.apart-card{
+.apart-card {
   border-radius: 23px;
-background-color: #000000;
-border: 1px solid #bbfc00;
-box-shadow: 
-0 0 13px -5px #bbfc00, /* Outer glow */
-inset 0 0 13px -5px #bbfc00; /* Inner glow */
-padding: 28px 37px;
-height: 100%;
+  background-color: #000000;
+  border: 1px solid #bbfc00;
+  box-shadow: 0 0 13px -5px #bbfc00,
+    /* Outer glow */ inset 0 0 13px -5px #bbfc00; /* Inner glow */
+  padding: 28px 37px;
+  height: 100%;
 }
-.center-apart-card{
+.center-apart-card {
   margin-left: 9px;
   margin-right: 9px;
 }
-.left-apart-card{
+.left-apart-card {
   margin-right: 25px;
 }
-.right-apart-card{
+.right-apart-card {
   margin-left: 25px;
 }
-.apart-card h3 , .mission h2{
+.apart-card h3,
+.mission h2 {
   font-size: 30px;
-letter-spacing: 0.5px;
-color: #ffeeee;
-font-weight: bold;
-font-family: "HelveticaNowDisplay";
-margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  color: #ffeeee;
+  font-weight: bold;
+  font-family: "HelveticaNowDisplay";
+  margin-bottom: 15px;
 }
-.apart-card p{
-font-size: 14px;
-color: #ffeeee;
-font-weight: 300;
-font-family: "Montserrat";
+.apart-card p {
+  font-size: 14px;
+  color: #ffeeee;
+  font-weight: 300;
+  font-family: "Montserrat";
 }
 .apart-card img {
   width: 18%;
   margin-bottom: 20px;
 }
-@media(max-width: 1160px){
-  .apart-card{
+@media (max-width: 1160px) {
+  .apart-card {
     padding: 10% 12%;
   }
-  .apart-card h3 , .mission h2{
+  .apart-card h3,
+  .mission h2 {
     font-size: 2.6vw;
     margin-bottom: 1.3vh !important;
   }
-  .apart-card p{
+  .apart-card p {
     font-size: 1.3vw;
   }
 }
-@media(max-width:768px){
-  .center-apart-card{
+@media (max-width: 768px) {
+  .center-apart-card {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .left-apart-card{
+  .left-apart-card {
     margin-right: 0px;
   }
-  .right-apart-card{
+  .right-apart-card {
     margin-left: 0px;
   }
-  .set-mie-apart{
+  .set-mie-apart {
     display: flex !important;
     flex-direction: column;
     align-items: center;
@@ -1424,42 +1423,63 @@ font-family: "Montserrat";
     font-size: 2.6vw;
     margin-bottom: 6vh !important;
   }
-  .aboutMain , .whyChooseMrMain{
+  .aboutMain,
+  .whyChooseMrMain {
     margin-top: 5vh;
   }
-  .our-story{
+  .our-story {
     margin-top: 5vh;
   }
 }
-@media(max-width:499px){
-  .apart-card{
+@media (max-width: 499px) {
+  .apart-card {
     padding: 8% 10%;
     border-radius: 17px;
   }
-  .apart-card p{
+  .apart-card p {
     margin-bottom: 0;
   }
   .apart-card img {
-   
     margin-bottom: 10px;
   }
-  .set-mie-apart{
+  .set-mie-apart {
     margin-bottom: 10vh !important;
   }
-  
+  .roadMapKey h6 {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+  }
+  .roadMapKey p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+  }
+  .roadmapText {
+    opacity: 0.031;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Akira Expanded";
+    position: relative;
+    top: -70px;
+    margin-bottom: -100px;
+  }
 }
 .mission-values-section p {
   font-size: 13px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
-margin-bottom: 36px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 36px;
 }
-.join-journey{
+.join-journey {
   margin-top: 16px;
   padding-bottom: 78px;
 }
-.join-journey p{
+.join-journey p {
   font-size: 13px;
   color: #ffffff;
   font-weight: 300;
@@ -1467,39 +1487,39 @@ margin-bottom: 36px;
   margin-bottom: 33px;
 }
 
-@media(max-width: 800px){
-  .join-journey p{
+@media (max-width: 800px) {
+  .join-journey p {
     font-size: 1.5vw;
     margin-bottom: 1.8vh;
   }
   .mission-values-section p {
     font-size: 1.5vw;
-  margin-bottom: 1.9vh;
+    margin-bottom: 1.9vh;
   }
 }
 
-
 /* why choose mie ride page */
 
-.why-reasons{
-   margin-top: 100px;
-   gap: 95px;
+.why-reasons {
+  margin-top: 100px;
+  gap: 95px;
 }
 
-.reason{
+.reason {
   border-radius: 46px;
   margin-bottom: 48px;
   height: 100%;
 }
-.reasons-column1, .reasons-column2{
+.reasons-column1,
+.reasons-column2 {
   width: 50%;
 }
-.reason1{
+.reason1 {
   border-radius: 46px;
-background-color: #000000;
-padding-bottom: 138px;
+  background-color: #000000;
+  padding-bottom: 138px;
 }
-.reason-text1{
+.reason-text1 {
   padding-left: 30px;
   padding-right: 155px;
   bottom: 20px;
@@ -1508,75 +1528,74 @@ padding-bottom: 138px;
   border-top-right-radius: 46px;
   border-top-left-radius: 46px;
 }
- .img1{
+.img1 {
   opacity: 0.835;
 }
-.reason h1{
+.reason h1 {
   font-size: 30px;
-letter-spacing: 0.5px;
-color: #cfff13;
-font-weight: bold;
-font-family: "HelveticaNowDisplay";
-margin-bottom: 23px;
-margin-top: 27px;
+  letter-spacing: 0.5px;
+  color: #cfff13;
+  font-weight: bold;
+  font-family: "HelveticaNowDisplay";
+  margin-bottom: 23px;
+  margin-top: 27px;
 }
-.reason p{
+.reason p {
   font-size: 15px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
-margin-bottom: 15px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 15px;
 }
 
-.reason-text2{
+.reason-text2 {
   padding-left: 40px;
   padding-right: 155px;
   bottom: 50px;
 }
 
-.reason4{
-background-color: #cfff13;
-border-radius: 46px;
-height: 280px;
-margin-bottom: 45px;
+.reason4 {
+  background-color: #cfff13;
+  border-radius: 46px;
+  height: 280px;
+  margin-bottom: 45px;
 }
-.reason-text4{
+.reason-text4 {
   padding: 48px;
 }
 
-.reason4 h1{
+.reason4 h1 {
   font-size: 30px;
   letter-spacing: 0.5px;
   color: #000000;
   font-weight: bold;
   font-family: "HelveticaNowDisplay";
   margin-bottom: 23px;
-
 }
-.reason4 p{
+.reason4 p {
   font-size: 15px;
   color: #000000;
   font-weight: 300;
   font-family: "Montserrat";
   margin-bottom: 15px;
-} 
-.reason6{
+}
+.reason6 {
   margin-bottom: 81px !important;
 }
-.reason5{
+.reason5 {
   border-radius: 46px;
   background-color: #141c20;
   margin-top: 135px;
   margin-bottom: 70px !important;
   padding-bottom: 138px;
 }
-.reason-text5{
+.reason-text5 {
   padding-left: 82px;
   padding-right: 82px;
   bottom: 35px;
 }
-.reason-text5 p{
-  text-align:  justify;
+.reason-text5 p {
+  text-align: justify;
   margin-bottom: 30px !important;
 }
 .reason5 img {
@@ -1593,127 +1612,218 @@ margin-bottom: 45px;
   background: linear-gradient(to top, black, transparent);
 }
 
-.plan-journey{
+.plan-journey {
   margin-top: 20px;
   padding-bottom: 82px;
 }
-.plan-journey h1{
+.plan-journey h1 {
   font-size: 30px;
-letter-spacing: 0.5px;
-color: #cfff13;
-font-weight: bold;
-font-family: "HelveticaNowDisplay";
-margin-bottom: 26px;
+  letter-spacing: 0.5px;
+  color: #cfff13;
+  font-weight: bold;
+  font-family: "HelveticaNowDisplay";
+  margin-bottom: 26px;
 }
 .plan-journey p {
   font-size: 15px;
-color: #ffffff;
-font-weight: 300;
-font-family: "Montserrat";
-margin-bottom: 52px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin-bottom: 52px;
 }
-.download-btn{
+.download-btn {
   color: white;
   margin-bottom: 0px !important;
 }
 
-
-@media(max-width: 800px){
-  .reason{
+@media (max-width: 800px) {
+  .reason {
     height: 50%;
   }
-  .reason4{
+  .reason4 {
     height: 15% !important;
-    }
-    .reason-text5 p {
-      text-align: justify;
-      margin-bottom: 0 !important;
+  }
+  .reason-text5 p {
+    text-align: justify;
+    margin-bottom: 0 !important;
   }
   .reason6 {
     margin-bottom: 8vh !important;
+  }
 }
-  
- }
 
-@media(max-width: 1400px){
-  .why-reasons{
+@media (max-width: 1400px) {
+  .why-reasons {
     margin-top: 10vh;
     gap: 4.9vw;
- }
+  }
 
-  .reason h1{
+  .reason h1 {
     font-size: 2.3vw;
-  margin-bottom: 2.13vh;
+    margin-bottom: 2.13vh;
   }
-  .reason p{
+  .reason p {
     font-size: 1vw;
-  margin-bottom: 1.39vh;
+    margin-bottom: 1.39vh;
   }
-  .plan-journey h1{
+  .plan-journey h1 {
     font-size: 2.3vw;
-  margin-bottom: 2.13vh !important;
+    margin-bottom: 2.13vh !important;
   }
   .plan-journey p {
     font-size: 1.3vw;
-  margin-bottom: 4.81vh;
+    margin-bottom: 4.81vh;
   }
-  .reason4 h1{
+  .reason4 h1 {
     font-size: 2.3vw;
     margin-bottom: 2.13vh;
-  
   }
-  .reason4 p{
+  .reason4 p {
     font-size: 1vw;
     margin-bottom: 15px;
-  } 
+  }
   .reason-text1 {
-    padding-left:1.56vw;;
+    padding-left: 1.56vw;
     padding-right: 8.5vw;
     bottom: 2vh;
-}
-.reason-text5 {
-  padding-left: 4.27vw;
-  padding-right: 4.27vw;
-  bottom: 5vh;
-}
-.reason-text2 {
-  padding-left: 1.5vw;
-  padding-right: 8.7vw;
-  bottom: 7vh;
-}
-.reason-text4 {
-  padding: 2.5vw;
-}
-.reason5{
-  border-radius: 2.4vw;
-  margin-top: 12.5vh;
-  margin-bottom: 6.4vh !important;
-  padding-bottom: 12.4vh;
-}
-.reason4{
-  border-radius: 2.4vw;
-  height: 280px;
-  margin-bottom: 4.17vh;
   }
-  .reason{
+  .reason-text5 {
+    padding-left: 4.27vw;
+    padding-right: 4.27vw;
+    bottom: 5vh;
+  }
+  .reason-text2 {
+    padding-left: 1.5vw;
+    padding-right: 8.7vw;
+    bottom: 7vh;
+  }
+  .reason-text4 {
+    padding: 2.5vw;
+  }
+  .reason5 {
+    border-radius: 2.4vw;
+    margin-top: 12.5vh;
+    margin-bottom: 6.4vh !important;
+    padding-bottom: 12.4vh;
+  }
+  .reason4 {
+    border-radius: 2.4vw;
+    height: 280px;
+    margin-bottom: 4.17vh;
+  }
+  .reason {
     border-radius: 2.4vw;
     margin-bottom: 4.27vh;
   }
-  .reason1{
+  .reason1 {
     border-radius: 2.4vw;
-  padding-bottom: 12.4vh;
+    padding-bottom: 12.4vh;
   }
   .reason img {
     border-top-right-radius: 2.4vw;
     border-top-left-radius: 2.4vw;
   }
-  .download-btn{
+  .download-btn {
     font-size: 2.5vw !important;
   }
-  
-  .app-store-img3, .google-img3 {
+
+  .app-store-img3,
+  .google-img3 {
     margin-top: 2.59vh !important;
     width: 14vw;
-}
+  }
 }
 
+.roadMapKey h6 {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.roadMapKey p {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+}
+.roadmapText {
+  opacity: 0.031;
+  font-size: 126px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Akira Expanded";
+  position: relative;
+  top: -70px;
+  margin-bottom: -100px;
+}
+.topCard {
+  position: relative;
+  top: -130px;
+}
+.bottomCard {
+  position: relative;
+  top: 40px;
+}
+
+.topLineVerticle{
+  height: 35px;
+  width: 2px;
+  background-color: #646464;
+  position: relative;
+  top: -180px;
+}
+.bottomLineVerticle{
+  height: 35px;
+  width: 2px;
+  background-color: #646464;
+  position: relative;
+  top: -110px;
+  left: -2px;
+}
+.roadmapMain{
+  margin: 200px 0px 100px 0px;
+}
+@media (max-width: 499px) {
+  .topLineVerticle{
+    height: 35px;
+    width: 2px;
+    background-color: #646464;
+    position: relative;
+    top: -34px;
+    left: 9px;
+  }
+  .bottomLineVerticle{
+    height: 35px;
+    width: 2px;
+    background-color: #646464;
+    position: relative;
+    top: 30px;
+    left: -2px;
+  }
+  .roadMapKey h6 {
+    font-size: 6px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+  }
+  .roadMapKey p {
+    font-size: 5px;
+  }
+  .roadmapText {
+    font-size: 30px;
+
+    top: -50px;
+    margin-bottom: -100px;
+  }
+  .topCard {
+    position: relative;
+    top: -100px;
+  }
+  .bottomCard {
+    position: relative;
+    top: 40px;
+  }
+  .roadmapMain{
+    margin: 100px 0px 100px 0px;
+  }
+}

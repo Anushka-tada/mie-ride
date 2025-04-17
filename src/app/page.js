@@ -67,13 +67,25 @@ function page() {
                 robotes setting prices - just real solutions for real people.
                 Come ride with us and join our growing community today!
               </p>
-               <div className="d-flex flex-column align-items-md-start align-items-center">
-                <h2>Download Now</h2> 
+              <div className="d-flex flex-column align-items-md-start align-items-center">
+                <h2>Download Now</h2>
                 <div className="d-flex">
-                 <a href="https://apps.apple.com/ca/app/mie-ride/id6639612972"> <img src="/assets/app-store.png" className="app-store-img3"/></a>
-                 <a href="https://play.google.com/store/apps/details?id=com.app.mieride"> <img src="/assets/google-pay.png" className="google-img3"/> </a>             
-                  </div>       
-               </div>
+                  <a href="https://apps.apple.com/ca/app/mie-ride/id6639612972">
+                    {" "}
+                    <img
+                      src="/assets/app-store.png"
+                      className="app-store-img3"
+                    />
+                  </a>
+                  <a href="https://play.google.com/store/apps/details?id=com.app.mieride">
+                    {" "}
+                    <img
+                      src="/assets/google-pay.png"
+                      className="google-img3"
+                    />{" "}
+                  </a>
+                </div>
+              </div>
             </div>
             <div className="herosectionImage col-md-7 col-12 order-md-2 order-1 d-flex justify-content-between ">
               <img src="/assets/mobile3.png" alt="" className="img-fluid" />
@@ -168,11 +180,132 @@ function page() {
                 </div>
               </div>
             </div>
-           
           </div>
-
+          {/* roadmap start */}
+          <div className="roadmapMain " >
+            <div style={{ height: "2px", background: "#646464" }}></div>
+            <div
+              className="d-flex justify-content-between mx-0 mx-md-5"
+              style={{ position: "relative", top: "-11px" }}
+            >
+              <div
+                className=""
+                style={{
+                  height: "20px",
+                  width: "20px",
+                  background: "#bbfc00",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <div
+                className=""
+                style={{
+                  height: "20px",
+                  width: "20px",
+                  background: "#bbfc00",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <div
+                className=""
+                style={{
+                  height: "20px",
+                  width: "20px",
+                  background: "#646464",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <div
+                className=""
+                style={{
+                  height: "20px",
+                  width: "20px",
+                  background: "#646464",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <div
+                className=""
+                style={{
+                  height: "20px",
+                  width: "20px",
+                  background: "#646464",
+                  borderRadius: "50%",
+                }}
+              ></div>
+              <div
+                className=""
+                style={{
+                  height: "20px",
+                  width: "20px",
+                  background: "#646464",
+                  borderRadius: "50%",
+                }}
+              ></div>
+            </div>
+            
+            <div className="d-flex justify-content-between mx-lg-5 mx-0 roadMapKey">
+              <div className="topCard" >
+                <h6 className="text-center">Shared Ride</h6>
+                <p className="text-center">(Live)</p>
+              </div>
+              <div className="bottomCard" >
+                <h6 className="text-center">Private Ride</h6>
+                <p className="text-center">(Live)</p>
+              </div>
+              <div className="topCard" >
+                <h6 className="text-center">Family Ride</h6>
+                <p className="text-center">(May 2025)</p>
+              </div>
+              <div className="bottomCard" >
+                <h6 className="text-center">Drive Test</h6>
+                <p className="text-center">(July 2025)</p>
+              </div>
+              <div className="topCard" >
+                <h6 className="text-center">Airport Ride</h6>
+                <p className="text-center">(Sept 2025)</p>
+              </div>
+              <div className="bottomCard" >
+                <h6 className="text-center">Intercity Ride</h6>
+                <p className="text-center">(Nov 2025)</p>
+              </div>
+            </div>
+            <h1 className="roadmapText">ROADMAP</h1>
+            <div
+              className="d-flex justify-content-between mx-md-5 mx-0"
+              style={{ position: "relative", top: "-11px" }}
+            >
+              <div
+                className="topLineVerticle"
+                style={{left:"9px"}}
+              ></div>
+              <div
+                className="bottomLineVerticle"
+                style={{left:"6px"}}
+              ></div>
+              <div
+                className="topLineVerticle"
+               
+              ></div>
+              <div
+                className="bottomLineVerticle"
+                style={{left:"0px"}}
+              ></div>
+              <div
+                className="topLineVerticle"
+                style={{left:"-6px"}}
+              ></div>
+              <div
+                className="bottomLineVerticle"
+                style={{left:"-6px"}}
+              ></div>
+            </div>
+          </div>
+          {/* roadmap end */}
           <div className="faq-content ">
-            <h1 className="mb-0">FAQ<span className="faq-s">s</span> </h1>
+            <h1 className="mb-0">
+              FAQ<span className="faq-s">s</span>{" "}
+            </h1>
             <p className="">
               Get quick answers to common questions about booking, pricing,
               cancellation and using our services.
@@ -182,14 +315,17 @@ function page() {
               <div className="col-md-5 col-12 faq px-sm-4 px-3">
                 <h5>Can I schedule rides in advance with Mie Ride?</h5>
                 <p className="mb-0">
-                Yes, you can pre-book rides to ensure timely pickups, especially for important appointments or airport transfers.​
+                  Yes, you can pre-book rides to ensure timely pickups,
+                  especially for important appointments or airport transfers.​
                 </p>
               </div>
 
               <div className="col-md-5 col-12 faq  px-sm-4 px-3">
                 <h5>How does Mie Ride ensure my safety during trips?</h5>
                 <p className="mb-0">
-                We offer in-app communication, live ride tracking, and driver details, ensuring transparency and safety throughout your journey.​
+                  We offer in-app communication, live ride tracking, and driver
+                  details, ensuring transparency and safety throughout your
+                  journey.​
                 </p>
               </div>
             </div>
@@ -198,26 +334,28 @@ function page() {
               <div className="col-md-5 col-12 faq px-sm-4 px-3">
                 <h5>What should I do if I leave an item in the vehicle?</h5>
                 <p className="mb-0">
-                Report the lost item through the app; we'll assist in connecting you with the driver to retrieve your belongings.​
+                  Report the lost item through the app; we'll assist in
+                  connecting you with the driver to retrieve your belongings.​
                 </p>
               </div>
 
               <div className="col-md-5 col-12 faq px-sm-4 px-3">
-                <h5>Are there any loyalty rewards or referral benefits with Mie Ride?</h5>
+                <h5>
+                  Are there any loyalty rewards or referral benefits with Mie
+                  Ride?
+                </h5>
                 <p className="mb-0">
-                Yes, refer friends to Mie Ride and earn rewards through our referral program. Details are available within the app.
+                  Yes, refer friends to Mie Ride and earn rewards through our
+                  referral program. Details are available within the app.
                 </p>
               </div>
             </div>
-            
           </div>
-         
         </div>
-        
       </div>
-      <Footer/>
+      <Footer />
       <div className="copyright d-flex justify-content-center align-items-center">
-      <p className="fw-bold text-white">© 2025 Mie Ride Inc.</p>
+        <p className="fw-bold text-white">© 2025 Mie Ride Inc.</p>
       </div>
     </div>
   );
