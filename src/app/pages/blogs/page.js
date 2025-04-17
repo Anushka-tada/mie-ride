@@ -69,10 +69,11 @@ function page() {
           <div className="row">
             <div className="col-12 order-md-1 order-2 col-md-6 my-auto">
               <h3 className="d-none d-md-block">
-                {loading ? <Skeleton width="80%" height={30} /> : blogList[0]?.title}
+                Latest
               </h3>
               <p>
-                {loading ? (
+                {loading ? <Skeleton width="80%" height={30} /> : blogList[0]?.title}
+                {/* {loading ? (
                   <Skeleton count={3} />
                 ) : (
                   <span
@@ -80,7 +81,7 @@ function page() {
                       __html: blogList[0]?.short_description,
                     }}
                   />
-                )}
+                )} */}
               </p>
               <span>
                 {loading ? <Skeleton width={100} /> : moment(blogList[0]?.created_at).format("MMM DD, YYYY")}
@@ -164,16 +165,14 @@ function page() {
                       >
                         <img src={Image_Base_Url + v?.image} />
                         <div className="p-md-3 p-1">
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: v?.short_description,
-                            }}
-                          />
+                          
+                          <p>{v?.title}</p>
                           <div className="my-md-2 my-0">
                             <span>
                               {moment(v?.created_at).format("MMM DD, YYYY")}
                             </span>
                           </div>
+                        
                         </div>
                       </div>
                     </div>
