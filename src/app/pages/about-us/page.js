@@ -105,7 +105,7 @@ function page() {
                   transportation network.</p>
               </div>
               <div className="col-md-4 col-5 d-flex justify-content-start">
-                <img src="/assets/about-img.png"  height={385} ></img>
+                <img src="/assets/web-gif.gif"  height={385} ></img>
               </div>
             </div>
           </div>
