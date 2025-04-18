@@ -6,6 +6,7 @@ import {
 } from "../../services/blog.services";
 import { Image_Base_Url } from "../../utils/api_base_url_configration";
 import Navbar from "../../components/Navbar";
+import Footer from "@/app/components/Footer";
 function page() {
   const navItems = [
     {
@@ -67,7 +68,7 @@ function page() {
 
           <div className="core-services">
             <h1>Our Core Services</h1>
-            <div className="row service-row">
+            <div className="row service-row gx-0">
               <div className="col-8 position-relative d-flex">
                 <img
                   src="/assets/curl2.png"
@@ -89,7 +90,7 @@ function page() {
                     <h2 className="shared-ride-h mb-0">Shared Ride</h2>
                     <div className="elips"></div>
                   </div>
-                  <p>
+                  <p className="mb-0">
                     Save on travel costs while reducing your carbon footprint.
                     Share your journey with others heading in the same direction
                     and split the fare for significant savings. Simply indicate
@@ -104,7 +105,7 @@ function page() {
                     <h2 className="shared-ride-h mb-0">Personal Ride</h2>
                     <div className="elips"></div>
                   </div>
-                  <p>
+                  <p className="mb-0">
                     Travel in comfort and privacy by reserving an entire vehicle
                     for yourself and your companions. Choose between our
                     spacious 4-seater or 6-seater options based on your group
@@ -169,10 +170,12 @@ function page() {
             </div>
           </div>
 
-          <div className="how-works">
+          <div className="how-works ">
+          
             <h1>How It Works</h1>
-            <div className="row g-4 work-cards">
-              <div className="col-lg-6 col-12 px-3">
+          
+            <div className="row g-4 work-cards ">
+              <div className="col-xl-6 col-11 px-3">
                 <div className="work-card">
                   <h3>For Passengers:</h3>
                   <div className="steps d-flex flex-column">
@@ -209,7 +212,7 @@ function page() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-12 px-3">
+              <div className="col-xl-6 col-11 px-3">
               <div className="work-card">
                   <h3>For Drivers:</h3>
                   <div className="steps d-flex flex-column">
@@ -249,7 +252,7 @@ function page() {
             </div>
           </div>
 
-          <div className="get-started ">
+          {/* <div className="get-started ">
              <div className="row">
               <div className="col-6  ">
               <h1>Download & Get Started</h1>
@@ -269,9 +272,13 @@ function page() {
               </div>
              
              </div>
-          </div>
+          </div> */}
+
+          
         </div>
+        
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -6,6 +6,7 @@ import {
 } from "../../services/blog.services";
 import { Image_Base_Url } from "../../utils/api_base_url_configration";
 import Navbar from "../../components/Navbar";
+import Footer from "@/app/components/Footer";
 function page() {
   const navItems = [
     {
@@ -190,6 +191,7 @@ function page() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

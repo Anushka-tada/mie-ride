@@ -6,6 +6,7 @@ import {
 } from "../../services/blog.services";
 import { Image_Base_Url } from "../../utils/api_base_url_configration";
 import Navbar from "../../components/Navbar";
+import Footer from "@/app/components/Footer";
 function page() {
   const navItems = [
     {
@@ -176,19 +177,13 @@ function page() {
             <h1>Plan Your Journey At your Terms</h1>
             <p>Whether you're looking for reliable transportation or building your earning potential,
                Mie Ride provides the tools and transparency you need to succeed.</p>
-               <h1>
+               <h1 className="trans-h">
                 Transportation that respects your choices.
                </h1>
-               <div>
-                <h2 className="download-btn">Download Now</h2> 
-                <div className="d-flex">
-                 <a href="https://apps.apple.com/ca/app/mie-ride/id6639612972"> <img src="/assets/app-store.png" className="app-store-img3"/></a>
-                 <a href="https://play.google.com/store/apps/details?id=com.app.mieride"> <img src="/assets/google-pay.png" className="google-img3"/> </a>             
-                  </div>       
-               </div>
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
