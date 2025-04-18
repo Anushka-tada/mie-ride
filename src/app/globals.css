@@ -1022,7 +1022,7 @@
 .book-btn p {
   font-size: 20px;
   color: #000000;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Montserrat";
 }
 
@@ -1390,7 +1390,7 @@
   color: #cfff13;
   font-weight: bold;
   font-family: "HelveticaNowDisplay";
-  margin-bottom: 31px !important;
+  margin-bottom: 33px !important;
 }
 .our-story p {
   font-size: 16px;
@@ -1461,8 +1461,9 @@
   border: 1px solid #bbfc00;
   box-shadow: 0 0 13px -5px #bbfc00,
     /* Outer glow */ inset 0 0 13px -5px #bbfc00; /* Inner glow */
-  padding: 28px 37px;
+  padding: 28px 42px;
   height: 100%;
+  padding-bottom: 24px;
 }
 .center-apart-card {
   margin-left: 9px;
@@ -1573,7 +1574,7 @@
   }
 }
 .mission-values-section p {
-  font-size: 13px;
+  font-size: 14px;
   color: #ffffff;
   font-weight: 300;
   font-family: "Montserrat";
