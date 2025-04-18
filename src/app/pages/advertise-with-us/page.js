@@ -48,16 +48,21 @@ function page() {
 
   return (
     <div className="mainDiv">
-      <div className="homepage">
+      <div className="partnerpage">
         {/* navbar started */}
         <Navbar selectedItem="Advertise With Us" navItems={navItems} />
         {/* navbar ended */}
-        <div className="blogsMain ">
-          <div
-            style={{ height: "70vh" }}
-            className=" d-flex justify-content-center align-items-center"
-          >
-            <h1 className="text-light">Comming Soon</h1>
+        <div className="partnerMain ">
+          <div className=" d-flex justify-content-center">
+            <h1 className="mb-0 about-h">PARTNER WITH MIE RIDE</h1>
+          </div>
+
+          <div className="lets-grow">
+              <h1>
+              Let's grow together and transform transportation for your organization
+              </h1>
+              <p>Looking for a transportation solution that truly understands what your business or institution needs? We've built our partnership program from the ground up based on what real organizations told us they wanted. No cookie-cutter approaches here - just practical, reliable transportation that solves problems and creates opportunities.
+              </p>
           </div>
         </div>
       </div>

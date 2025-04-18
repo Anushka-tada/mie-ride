@@ -989,13 +989,15 @@
 
 .servicepage,
 .aboutpage,
-.whyChooseMrpage {
+.whyChooseMrpage ,
+.partnerpage {
   padding: 50px 60px;
   padding-bottom: 0 !important;
 }
 .serviceMain,
 .aboutMain,
-.whyChooseMrMain {
+.whyChooseMrMain,
+.partnerMain {
   margin-top: 60px;
 }
 .journey-section {
@@ -1939,4 +1941,14 @@
   .roadmapMain{
     margin: 100px 0px 100px 0px;
   }
+}
+
+
+/* Partner with us page style */
+
+.lets-grow h1{
+  font-size: 33px;
+color: #bbfc00;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
 }
