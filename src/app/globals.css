@@ -1946,9 +1946,125 @@
 
 /* Partner with us page style */
 
+.lets-grow{
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
 .lets-grow h1{
   font-size: 33px;
+  letter-spacing: 0.5px;
 color: #bbfc00;
 font-weight: bold;
 font-family: "HelveticaNowDisplay";
+margin-bottom: 13px;
+}
+.lets-grow p {
+  font-size: 15px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Montserrat";
+}
+.work-with{
+  padding-bottom: 70px;
+}
+.work-with h1{
+  font-size: 33px;
+  letter-spacing: 0.5px;
+color: #bbfc00;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+}
+.workwith-cards{
+  padding-left: 57px;
+  padding-right: 57px;
+}
+.workwith-cards .row{
+   margin-bottom: 50px;
+}
+
+.workwith-card{
+  border-radius: 28px;
+background-color: #cffe1e;
+padding-bottom: 24px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 60px;
+width: 80%;
+z-index: 1;
+height: 100%;
+}
+.workwith-card h3{
+  font-size: 16px;
+letter-spacing: 0px;
+color: #000000;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+}
+.workwith-card ul{
+  list-style: none !important;
+  padding-left: 9px;
+}
+.workwith-card li{
+  font-size: 14px;
+color: #000000;
+font-weight: 300;
+font-family: "Montserrat";
+line-height: 18px;
+}
+.workwith-img{
+  border-radius: 57px;
+background-color: #ffffff;
+width: 90px;
+height: 90px;
+top: -9%;
+}
+.workwith-img img {
+   width: 50%;
+}
+
+.white-border{
+  z-index: -2px;
+  width: 76%;
+  height: 100%;
+  top: 0;
+
+  border: 2px solid white;
+  rotate: 20deg;
+  border-radius: 28px;
+}
+
+.partnership-program h1{
+  font-size: 33px;
+letter-spacing: 0.5px;
+color: #cfff13;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+}
+
+
+.partnership-card h2{
+  font-size: 19px;
+letter-spacing: 0.5px;
+color: #ffeeee;
+font-weight: bold;
+font-family: "HelveticaNowDisplay";
+text-align: center;
+}
+
+.partnership-card p{
+  font-size: 13px;
+  color: #ffeeee;
+  font-weight: 300;
+  font-family: "Montserrat";
+}
+.partnership-card{
+  width: 30%;
+border-radius: 28px;
+background-color: #000000;
+border: 1px solid #bbfc00;
+}
+.partnership-card img{
+  background-color: #ceff13;
+  height: 75px;
+  width: auto;
 }
