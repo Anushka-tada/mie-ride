@@ -10,7 +10,9 @@ const Footer = () => {
   };
 
   const handleUserGoogle = () => {
-    window.open("https://play.google.com/store/apps/details?id=com.app.mieride");
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.app.mieride"
+    );
   };
 
   const handleDriverApp = () => {
@@ -18,7 +20,9 @@ const Footer = () => {
   };
 
   const handleDriverGoogle = () => {
-    window.open("https://play.google.com/store/apps/details?id=com.app.mieridedriver");
+    window.open(
+      "https://play.google.com/store/apps/details?id=com.app.mieridedriver"
+    );
   };
   return (
     <>
@@ -26,75 +30,73 @@ const Footer = () => {
         <div className="row gx-0 px-0">
           <div className="col-lg-2 col-12 terms-outer">
             <h5>MIE RIDE</h5>
-          <div className="terms">
-          <p className="footer-p ">Terms & Conditions</p>
-            <p className="footer-p">Privacy Policy</p>
-            <p className="footer-p">Partner with Us</p>
-            <p className="footer-p">Testimonials</p>
-          </div>
+            <div className="terms">
+              <p className="footer-p ">Terms & Conditions</p>
+              <p className="footer-p">Privacy Policy</p>
+              <p className="footer-p">Partner with Us</p>
+              <p className="footer-p">Testimonials</p>
+            </div>
           </div>
 
           <div className="col-lg-10 col-12">
             <div className="row d-flex footer-cards gap-0 justify-content-around me-md-0 me-4">
               <div className="col-6 ps-md-5 ">
                 <div className="footer-card d-flex gap-sm-3 gap-1">
-                <p>
-                  Ready for smoother journeys? Download the Mie Ride app now and
-                  experience transportation on your terms. A few tabs is all it
-                  takes to book your next ride. Fast, reliable, and designed
-                  with you in mind. Your next destination is waiting!
-                </p>
-                <div className="d-flex flex-column align-items-center justify-content-center">
-                  <img src="/assets/user-app.png" className="user-app-img" />
+                  <p>
+                    Ready for smoother journeys? Download the Mie Ride app now
+                    and experience transportation on your terms. A few tabs is
+                    all it takes to book your next ride. Fast, reliable, and
+                    designed with you in mind. Your next destination is waiting!
+                  </p>
+                  <div className="d-flex flex-column align-items-center justify-content-center">
+                    <div className="user-app-img">
+                      <img src="/assets/user-app.png" className="img-fluid" />
+                    </div>
 
-                  <div className="d-flex store-images">
-                 
+                    <div className="d-flex store-images">
                       <img
                         src="/assets/app-store.png"
                         className="app-store-img "
                         onClick={handleUserApp}
-                      />   
+                      />
                       <img
                         src="/assets/google-pay.png"
                         className="google-img"
                         onClick={handleUserGoogle}
                       />
-                
+                    </div>
                   </div>
                 </div>
-                </div>
               </div>
-               
-              <div className="col-6 pe-md-5">
-               <div className="footer-card d-flex gap-sm-3 gap-1">
-               <p>
-                  Join our growing team of drivers and turns your wheels into
-                  opportunities! Download the Mie Ride driver app today and
-                  start earning on your schedule. Set your hours, meet
-                  intersting people, and become part of a community that moves
-                  forward together.
-                </p>
-                <div className="d-flex flex-column align-items-center justify-content-center ">
-                  <img src="/assets/driver-app.png" className="user-app-img" />
 
-                  <div className="d-flex store-images">
-                   
+              <div className="col-6 pe-md-5">
+                <div className="footer-card d-flex gap-sm-3 gap-1">
+                  <p>
+                    Join our growing team of drivers and turns your wheels into
+                    opportunities! Download the Mie Ride driver app today and
+                    start earning on your schedule. Set your hours, meet
+                    intersting people, and become part of a community that moves
+                    forward together.
+                  </p>
+                  <div className="d-flex flex-column align-items-center justify-content-center ">
+                    <div className="user-app-img">
+                      <img src="/assets/driver-app.png" className="img-fluid" />
+                    </div>
+
+                    <div className="d-flex store-images">
                       <img
                         src="/assets/app-store.png"
                         className="app-store-img"
                         onClick={handleDriverApp}
                       />
-                  
-                   
                       <img
                         src="/assets/google-pay.png"
                         className="google-img"
                         onClick={handleDriverGoogle}
                       />{" "}
-                   
+                    </div>
                   </div>
                 </div>
-               </div>
               </div>
             </div>
           </div>

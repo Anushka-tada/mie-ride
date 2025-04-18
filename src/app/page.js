@@ -139,7 +139,7 @@ function page() {
             </div>
           </div>
           <div className="row mt-md-5 mt-0 pt-md-5 pt-0 ">
-            <div className="col-md-10 col-12 m-md-0 mx-0 mt-3 p-0 row ">
+            <div className="col-md-11 col-12 m-md-0 mx-0 mt-3 p-0 row ">
               <div className="col-4 mb-4">
                 <div className="homeCardBox rider">
                   <h2>Shared Ride</h2>
@@ -171,7 +171,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-2 my-auto d-md-flex justify-content-end">
+            <div className="col-12 col-md-1 my-auto d-md-flex justify-content-end">
               <div className="d-flex  d-md-block justify-content-center">
                 <div className=" miePayLogo d-flex justify-content-end align-items-end">
                   <a href="https://miepay.ca/" target="blank">
@@ -185,7 +185,7 @@ function page() {
           <div className="roadmapMain " >
             <div style={{ height: "2px", background: "#646464" }}></div>
             <div
-              className="d-flex justify-content-between mx-0 mx-md-5"
+              className="d-flex justify-content-around mx-0 "
               style={{ position: "relative", top: "-11px" }}
             >
               <div
@@ -195,6 +195,7 @@ function page() {
                   width: "20px",
                   background: "#bbfc00",
                   borderRadius: "50%",
+                  boxShadow: "0 0 5px #bbfc00, 0 0 10px #bbfc00, 0 0 15px #bbfc00"
                 }}
               ></div>
               <div
@@ -204,6 +205,7 @@ function page() {
                   width: "20px",
                   background: "#bbfc00",
                   borderRadius: "50%",
+                   boxShadow: "0 0 5px #bbfc00, 0 0 10px #bbfc00, 0 0 15px #bbfc00"
                 }}
               ></div>
               <div
@@ -244,7 +246,7 @@ function page() {
               ></div>
             </div>
             
-            <div className="d-flex justify-content-between mx-lg-5 mx-0 roadMapKey">
+            <div className="d-flex justify-content-around mx-lg-0 mx-0 roadMapKey">
               <div className="topCard" >
                 <h6 className="text-center">Shared Ride</h6>
                 <p className="text-center">(Live)</p>
@@ -272,16 +274,16 @@ function page() {
             </div>
             <h1 className="roadmapText">ROADMAP</h1>
             <div
-              className="d-flex justify-content-between mx-md-5 mx-0"
+              className="d-flex justify-content-around mx-md-0 mx-0"
               style={{ position: "relative", top: "-11px" }}
             >
               <div
                 className="topLineVerticle"
-                style={{left:"9px"}}
+                
               ></div>
               <div
                 className="bottomLineVerticle"
-                style={{left:"6px"}}
+               
               ></div>
               <div
                 className="topLineVerticle"
@@ -289,15 +291,15 @@ function page() {
               ></div>
               <div
                 className="bottomLineVerticle"
-                style={{left:"0px"}}
+                
               ></div>
               <div
                 className="topLineVerticle"
-                style={{left:"-6px"}}
+            
               ></div>
               <div
                 className="bottomLineVerticle"
-                style={{left:"-6px"}}
+             
               ></div>
             </div>
           </div>
